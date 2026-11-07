@@ -10,6 +10,8 @@ Android-приложение для Nuclear IT Hack: локальная расш
 
 ## Скачать и проверить
 
+- [Презентация PowerPoint и текст защиты для двоих](artifacts/presentation/README.md)
+
 - [Готовый APK 0.6.1 (~906 МиБ)](https://github.com/kirillslk0609-afk/nexus-replika/releases/download/v0.6.1/neuroscribe-debug.apk)
 - [Релиз: APK, исходники, контрольные суммы и видеодемонстрации](https://github.com/kirillslk0609-afk/nexus-replika/releases/tag/v0.6.1)
 - [Видео проверки на Samsung Galaxy S10](https://github.com/kirillslk0609-afk/nexus-replika/releases/download/v0.6.1/replica-samsung-s10-check.mp4) · [Методика и ограничения проверки](docs/PHONE_TEST.md)
