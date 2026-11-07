@@ -1,0 +1,12 @@
+11-06 21:49:39:499 new player piid:79 uid/pid:10148/2701 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null session:65
+11-06 21:49:39:662 player piid:79 event:started
+11-06 21:49:39:689 port updated portId:16 mapped to player piid:79
+11-06 21:49:39:691 player piid:79 format update:FormatInfo{isSpatialized=false, channelMask=0x1, sampleRate=16000}
+11-06 21:49:39:723 player piid:79 event:device updated deviceId:2
+11-06 21:49:49:382 releasing player piid:79, uid:0
+11-06 21:50:07:555 new player piid:87 uid/pid:10148/3146 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null session:73
+11-06 21:50:07:626 player piid:87 event:started
+11-06 21:50:07:656 port updated portId:17 mapped to player piid:87
+11-06 21:50:07:662 player piid:87 format update:FormatInfo{isSpatialized=false, channelMask=0x1, sampleRate=16000}
+11-06 21:50:07:711 player piid:87 event:device updated deviceId:2
+11-06 21:50:15:065 releasing player piid:87, uid:10148

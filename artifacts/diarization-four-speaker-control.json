@@ -1,0 +1,26 @@
+[
+  {
+    "model": "campplus",
+    "threshold": 0.4,
+    "fixture": "four_zh",
+    "speakers": 5
+  },
+  {
+    "model": "campplus",
+    "threshold": 0.5,
+    "fixture": "four_zh",
+    "speakers": 5
+  },
+  {
+    "model": "campplus",
+    "threshold": 0.6,
+    "fixture": "four_zh",
+    "speakers": 4
+  },
+  {
+    "model": "campplus",
+    "threshold": 0.7,
+    "fixture": "four_zh",
+    "speakers": 4
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "app_version": "0.6.1",
+  "physical_phone_test": false,
+  "device": "Android 15 ARM64 emulator, Pixel 6 AVD profile, 4096 MiB configured RAM",
+  "airplane_mode": true,
+  "active_default_network": "none",
+  "audio_duration_ms": 16000,
+  "processing_ms": 27706,
+  "speakers": 2,
+  "turns": 4,
+  "export_matches_internal": true,
+  "matches_previous_demo_baseline": true,
+  "original_user_state_restored_byte_for_byte": true,
+  "video_sha256": "2d2c38b8ac1f3c54697f07503e9afbdc6e3846e30b6c25e0fa5f90e479cb1128",
+  "source_audio_sha256": "f1c877dc01595e28be7147bf2fe38e5268147a868bf3fdb5c37b97f5940e21f3",
+  "models_prepared_before_recording": true,
+  "video_edited": false,
+  "video_audio_track": false
+}

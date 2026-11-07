@@ -1,0 +1,118 @@
+{
+  "sources": [
+    {
+      "files": [
+        "conversation.mp3",
+        "conversation-second.mp3"
+      ],
+      "source": "https://huggingface.co/datasets/datahiveai/multilingual-conversations-sample",
+      "commit": "c29728a0c9792ba486807fa1ea9ca64e292cec01",
+      "original": "preview/ru_000002.mp3",
+      "credit": "DataHive",
+      "license": "CC BY 4.0",
+      "purpose": "test only, not bundled in production APK",
+      "originals": [
+        "preview/ru_000002.mp3",
+        "preview/ru_000014.mp3"
+      ]
+    },
+    {
+      "files": [
+        "two-speakers.wav",
+        "four-speakers.wav"
+      ],
+      "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-segmentation-models/1-two-speakers-en.wav",
+      "purpose": "test fixture from upstream sherpa-onnx",
+      "four_speaker_source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-segmentation-models/0-four-speakers-zh.wav"
+    },
+    {
+      "files": [
+        "russian.wav",
+        "russian.m4a"
+      ],
+      "source": "Team synthetic speech fixture; macOS Milena voice; AAC derivative made with afconvert"
+    },
+    {
+      "files": [
+        "silence.wav",
+        "broken.wav",
+        "empty.wav"
+      ],
+      "source": "Generated test inputs"
+    },
+    {
+      "files": [
+        "russian-noise.wav",
+        "russian-pauses.wav"
+      ],
+      "source": "Derived from russian.wav: Gaussian noise, 12 dB SNR, seed 20261106; repeated speech separated by 5 s silence"
+    },
+    {
+      "files": [
+        "synthetic-two.wav"
+      ],
+      "source": "Team synthetic Samantha + Daniel voices; same file as samples/two-voices-synthetic.wav"
+    },
+    {
+      "files": [
+        "development-ru.mp3",
+        "development-en.mp3",
+        "validation-ru.mp3",
+        "validation-en.mp3"
+      ],
+      "originals": [
+        "preview/ru_000013.mp3",
+        "preview/en_000015.mp3",
+        "preview/ru_000004.mp3",
+        "preview/en_000020.mp3"
+      ],
+      "source": "https://huggingface.co/datasets/datahiveai/multilingual-conversations-sample",
+      "commit": "c29728a0c9792ba486807fa1ea9ca64e292cec01",
+      "credit": "DataHive",
+      "license": "CC BY 4.0",
+      "purpose": "Development/evaluation only; all four were inspected before final parameters were frozen"
+    },
+    {
+      "files": [
+        "three-speakers.wav"
+      ],
+      "source": "First 26 seconds of four-speakers.wav; first three voices in upstream reference output; edited test-only derivative"
+    },
+    {
+      "files": [
+        "unseen-ru.mp3",
+        "unseen-en.mp3"
+      ],
+      "originals": [
+        "preview/ru_000017.mp3",
+        "preview/en_000001.mp3"
+      ],
+      "source": "https://huggingface.co/datasets/datahiveai/multilingual-conversations-sample",
+      "commit": "c29728a0c9792ba486807fa1ea9ca64e292cec01",
+      "credit": "DataHive",
+      "license": "CC BY 4.0",
+      "purpose": "Additional evaluation after initial development; included in final regression. Actual Android vectors were inspected before final reliability setting, so these are not a strictly blind holdout."
+    }
+  ],
+  "sha256": {
+    "two-speakers.wav": "f1c877dc01595e28be7147bf2fe38e5268147a868bf3fdb5c37b97f5940e21f3",
+    "empty.wav": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "russian.m4a": "f24960a522d3bc96c259bf14cf2a3ab1981dd758170c20a89c1abc617418cfbe",
+    "conversation-second.mp3": "fd0b16ab3b13401fc8d3d03ffe50e02f72cc35d75b4e815f2a20ae3c053a68d1",
+    "conversation.mp3": "89fa89a61b8564b6261498f4c1ee3cf8cc5982f122caa126ca9cae0a2a64415d",
+    "russian.wav": "495afad67f87612b9c35ad6ca61baa874f715e1905bf99b9995c57c4d07ce0e9",
+    "russian-pauses.wav": "04e46d2fdc59ae3a9840fd2da43022fbac98287240a71845fc487a45451fed76",
+    "silence.wav": "262d1f34f300560a4c82ba8127ddea9e1d72946f187fdbd3e8f70ee096077aec",
+    "synthetic-two.wav": "a0f600086c91fe7e496b58776edc3442df97300df9e0a849b22574d869371d74",
+    "development-ru.mp3": "1f26c64336790dac354e1913183e8e8f8603feea4ee9a6fe78c2e2825d85aaf6",
+    "three-speakers.wav": "957da01b85b83777f3e8dfce5884808f9ab90361d38ca7d06d119e4dca9e2e47",
+    "validation-en.mp3": "e1f921673413f09fb2e21256cccd599098c79c063ae621ffead2a57172964bd1",
+    "russian-noise.wav": "6d99e8201a6791e47c6bdda33a5338d62ad91cf24b060fb911be6e8587627c41",
+    "broken.wav": "23fdfbc0003c90c9e3633c2418270fcd6771141022f7ca7af7f3f66d39cb04e1",
+    "validation-ru.mp3": "52cd538d26671160492657e54b4cb70dc7f454e15cdd3dd01f679afd7a4b5d21",
+    "development-en.mp3": "c8e142851df1d2a503600bb08cd59b43fc5856b7d9fecf04391783a403ce91d4",
+    "four-speakers.wav": "bedf036caed208386c67b4ef4b11f83d74dd0d420b102163a1c33cd09cde7010",
+    "unseen-en.mp3": "f8f3ccfb3c985af1f37eabb0db4a448c6a0dae88c9ba1f7b2f186809eced1c92",
+    "unseen-ru.mp3": "2e0413e1165cb4321ff541579b57c9ed425ebc8a545b339dc1f9c86fa51dd015"
+  }
+}

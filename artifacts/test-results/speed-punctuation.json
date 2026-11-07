@@ -1,0 +1,130 @@
+[
+  {
+    "input": "Алло!",
+    "baseline": "Алло!",
+    "optimized": "Алло!",
+    "baselineMs": 1937.873835,
+    "optimizedMs": 1947.569126,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "а да",
+    "baseline": "а да",
+    "optimized": "а да",
+    "baselineMs": 1744.366209,
+    "optimizedMs": 1873.155918,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Чё",
+    "baseline": "Чё",
+    "optimized": "Чё",
+    "baselineMs": 1902.080293,
+    "optimizedMs": 2033.649626,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "- Алло",
+    "baseline": "- Алло",
+    "optimized": "- Алло",
+    "baselineMs": 1869.229875,
+    "optimizedMs": 1919.792251,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Что делаем, М",
+    "baseline": "Что делаем, М",
+    "optimized": "Что делаем, М",
+    "baselineMs": 2188.664501,
+    "optimizedMs": 2222.279584,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Вау!",
+    "baseline": "Вау!",
+    "optimized": "Вау!",
+    "baselineMs": 2044.663793,
+    "optimizedMs": 2012.816959,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "До",
+    "baseline": "До",
+    "optimized": "До",
+    "baselineMs": 1847.23296,
+    "optimizedMs": 1949.85471,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Чего Кусана прыгал, да? Злоде",
+    "baseline": "Чего Кусана прыгал, да? Злоде",
+    "optimized": "Чего Кусана прыгал, да? Злоде",
+    "baselineMs": 2842.211585,
+    "optimizedMs": 2835.607418,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Дома сидел вчера",
+    "baseline": "Дома сидел вчера",
+    "optimized": "Дома сидел вчера",
+    "baselineMs": 2349.326418,
+    "optimizedMs": 2510.061502,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Потому что ты начинаешь так и говоришь, что это нормально, а потом...",
+    "baseline": "Потому что ты начинаешь так и говоришь, что это нормально, а потом...",
+    "optimized": "Потому что ты начинаешь так и говоришь, что это нормально, а потом...",
+    "baselineMs": 3035.003377,
+    "optimizedMs": 2329.802001,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Да нет, я сейчас машинку буду, видишь, делаю",
+    "baseline": "Да нет, я сейчас машинку буду, видишь, делаю",
+    "optimized": "Да нет, я сейчас машинку буду, видишь, делаю",
+    "baselineMs": 2793.229835,
+    "optimizedMs": 2586.531709,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "да",
+    "baseline": "да",
+    "optimized": "да",
+    "baselineMs": 1666.814625,
+    "optimizedMs": 1633.41746,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Pencil with black lead right spet.",
+    "baseline": "Pencil with black lead right spet.",
+    "optimized": "Pencil with black lead right spet.",
+    "baselineMs": 2306.286126,
+    "optimizedMs": 2292.943335,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "Clothes and lodging are free to new men.",
+    "baseline": "Clothes and lodging are free to new men.",
+    "optimized": "Clothes and lodging are free to new men.",
+    "baselineMs": 2504.189459,
+    "optimizedMs": 2659.469335,
+    "optimizedNativeCalls": 1
+  },
+  {
+    "input": "да",
+    "baseline": "да",
+    "optimized": "да",
+    "baselineMs": 1743.507751,
+    "optimizedMs": 0.005875,
+    "optimizedNativeCalls": 0
+  },
+  {
+    "input": "Алло!",
+    "baseline": "Алло!",
+    "optimized": "Алло!",
+    "baselineMs": 2124.953584,
+    "optimizedMs": 0.007,
+    "optimizedNativeCalls": 0
+  }
+]

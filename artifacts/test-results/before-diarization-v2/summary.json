@@ -1,0 +1,101 @@
+{
+  "collected_utc": "2026-11-06T19:39:34.046528+00:00",
+  "apk_sha256": "53a56be411da28a38fedfba8c52e6d9906ab5394a4de73575820d843fe611f88",
+  "serial": "emulator-5566",
+  "android_tests_passed": 14,
+  "processing_includes_model_preparation": true,
+  "physical_phone": false,
+  "measurements": [
+    {
+      "fixture": "test-russian",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 10.28,
+      "processing_s": 21.461,
+      "rtf": 2.088,
+      "speakers_expected": 1,
+      "speakers_detected": 1,
+      "turns": 1,
+      "llm_calls": 1,
+      "rejected_llm_edits": 0,
+      "wer": 0.052632
+    },
+    {
+      "fixture": "test-two-speakers",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 16.0,
+      "processing_s": 16.051,
+      "rtf": 1.003,
+      "speakers_expected": 2,
+      "speakers_detected": 2,
+      "turns": 4,
+      "llm_calls": 4,
+      "rejected_llm_edits": 0,
+      "wer": ""
+    },
+    {
+      "fixture": "test-silence",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 5.0,
+      "processing_s": 1.752,
+      "rtf": 0.35,
+      "speakers_expected": 0,
+      "speakers_detected": 0,
+      "turns": 0,
+      "llm_calls": 0,
+      "rejected_llm_edits": 0,
+      "wer": ""
+    },
+    {
+      "fixture": "quality-russian-noise.wav",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 10.28,
+      "processing_s": 13.85,
+      "rtf": 1.347,
+      "speakers_expected": 1,
+      "speakers_detected": 1,
+      "turns": 1,
+      "llm_calls": 1,
+      "rejected_llm_edits": 0,
+      "wer": 0.105263
+    },
+    {
+      "fixture": "quality-russian-pauses.wav",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 25.561,
+      "processing_s": 26.036,
+      "rtf": 1.019,
+      "speakers_expected": 1,
+      "speakers_detected": 2,
+      "turns": 4,
+      "llm_calls": 4,
+      "rejected_llm_edits": 1,
+      "wer": 0.157895
+    },
+    {
+      "fixture": "quality-conversation.mp3",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 169.012,
+      "processing_s": 248.24,
+      "rtf": 1.469,
+      "speakers_expected": 2,
+      "speakers_detected": 8,
+      "turns": 70,
+      "llm_calls": 70,
+      "rejected_llm_edits": 24,
+      "wer": ""
+    },
+    {
+      "fixture": "quality-conversation-second.mp3",
+      "device": "Android 15 ARM64 emulator on Mac",
+      "duration_s": 153.832,
+      "processing_s": 219.484,
+      "rtf": 1.427,
+      "speakers_expected": 2,
+      "speakers_detected": 8,
+      "turns": 40,
+      "llm_calls": 40,
+      "rejected_llm_edits": 14,
+      "wer": ""
+    }
+  ]
+}

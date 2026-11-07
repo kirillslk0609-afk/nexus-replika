@@ -1,0 +1,8 @@
+{
+  "environment": "macOS arm64, not Android",
+  "test": "same JNI source, two sequential Russian prompts and context reset",
+  "outputs": [
+    "Добрый день, давайте обсудим бюджет.",
+    "завтра проверим качество распознавания"
+  ]
+}

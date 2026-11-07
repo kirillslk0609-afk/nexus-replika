@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-06",
+  "environment": "Android 15 API 35 AOSP arm64-v8a emulator on Mac; 4 GB guest RAM; not a physical phone",
+  "airplane_mode": true,
+  "russian": {
+    "audio_ms": 10280,
+    "processing_ms": 2648,
+    "rtf": 0.25758754863813227,
+    "speakers": 1,
+    "llm_calls": 1,
+    "reference_words": 19,
+    "errors": 1,
+    "wer": 0.05263157894736842
+  },
+  "two_speakers": {
+    "fixture": "official sherpa-onnx 1-two-speakers-en.wav",
+    "audio_ms": 16000,
+    "processing_ms": 4247,
+    "rtf": 0.2654375,
+    "speakers": 2,
+    "turns": 4,
+    "llm_calls": 4,
+    "der_measured": false,
+    "wer_measured": false
+  },
+  "checks": {
+    "file_picker_import": true,
+    "saf_json_export_matches_internal_result": true,
+    "json_schema_and_time_bounds": true,
+    "restore_after_force_stop": true,
+    "repeat_russian_result_identical": true,
+    "playback_started_in_android_audio_log": true,
+    "no_new_native_crashes_after_fix": true
+  },
+  "fixes": [
+    "Concrete typed callback for sherpa JNI; regression test added",
+    "RelWithDebInfo native inference in debug APK"
+  ],
+  "limits": [
+    "Only short fixtures tested",
+    "Physical phone performance and real-dialogue quality unmeasured",
+    "Host synthetic two-voice negative test remains unresolved"
+  ]
+}

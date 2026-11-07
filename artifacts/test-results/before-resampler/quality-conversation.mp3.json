@@ -1,0 +1,468 @@
+{
+  "fixture": "conversation.mp3",
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 7000,
+        "end_ms": 7557,
+        "text": "Алло"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 8215,
+        "end_ms": 8738,
+        "text": "Алло"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 9177,
+        "end_ms": 9632,
+        "text": "КА"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 10122,
+        "end_ms": 10932,
+        "text": "Чё делаем"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 12113,
+        "end_ms": 12602,
+        "text": "Алло"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 13767,
+        "end_ms": 15319,
+        "text": "Дулка, вот это мягко"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 14594,
+        "end_ms": 15100,
+        "text": "что делаем"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 15100,
+        "end_ms": 15522,
+        "text": "Пу"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 17513,
+        "end_ms": 19032,
+        "text": "А я же еру два рука д"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 17851,
+        "end_ms": 24634,
+        "text": "Ну давай я так же один."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 19032,
+        "end_ms": 19471,
+        "text": "Дай"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 19471,
+        "end_ms": 19774,
+        "text": "на"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 22846,
+        "end_ms": 23537,
+        "text": "Я так рул."
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 26322,
+        "end_ms": 26946,
+        "text": "ага"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 26761,
+        "end_ms": 28414,
+        "text": "Ааааааааа"
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 28769,
+        "end_ms": 29106,
+        "text": "Два"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 29984,
+        "end_ms": 30996,
+        "text": "Точно Точно Точно"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 33443,
+        "end_ms": 34017,
+        "text": "М"
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 35029,
+        "end_ms": 36582,
+        "text": "потому что никуда не хотел ехать"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 39349,
+        "end_ms": 40446,
+        "text": "Донне"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 41509,
+        "end_ms": 45272,
+        "text": "все до базы было до съездечки, что не конравить на ворота погас"
+      },
+      {
+        "speaker_id": "speaker_6",
+        "start_ms": 49525,
+        "end_ms": 51972,
+        "text": "Итак, у вас есть?"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 51550,
+        "end_ms": 55499,
+        "text": "Это все каковсана прыгал, да? Злоде"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 51972,
+        "end_ms": 52276,
+        "text": "Б"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 57794,
+        "end_ms": 58114,
+        "text": "сп"
+      },
+      {
+        "speaker_id": "speaker_7",
+        "start_ms": 60156,
+        "end_ms": 60578,
+        "text": "3"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 61675,
+        "end_ms": 62029,
+        "text": "Му"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 63076,
+        "end_ms": 63531,
+        "text": "Пу"
+      },
+      {
+        "speaker_id": "speaker_7",
+        "start_ms": 64628,
+        "end_ms": 65742,
+        "text": "Очерательно завод"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 68712,
+        "end_ms": 69792,
+        "text": "нет"
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 69927,
+        "end_ms": 72121,
+        "text": "Что-то от природы истаны, ну, ну"
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 72661,
+        "end_ms": 74179,
+        "text": "Релиз тосе"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 76052,
+        "end_ms": 79140,
+        "text": "Не жалан меня нормально. Занел он. Викто мне звонил"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 81233,
+        "end_ms": 82397,
+        "text": "Я думал, сидел"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 85013,
+        "end_ms": 85823,
+        "text": "Не знаю, он"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 85823,
+        "end_ms": 86515,
+        "text": "Веркну"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 88844,
+        "end_ms": 91122,
+        "text": "Он так привидит, а он вас привидит."
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 94193,
+        "end_ms": 96539,
+        "text": "Исприрую, если вы не сможете пропадать"
+      },
+      {
+        "speaker_id": "speaker_8",
+        "start_ms": 98952,
+        "end_ms": 100741,
+        "text": "Я погоди это, звукнует"
+      },
+      {
+        "speaker_id": "speaker_9",
+        "start_ms": 105128,
+        "end_ms": 105651,
+        "text": "Не забыв"
+      },
+      {
+        "speaker_id": "speaker_9",
+        "start_ms": 106056,
+        "end_ms": 107322,
+        "text": "Пополем, мастер"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 108554,
+        "end_ms": 108874,
+        "text": "("
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 112502,
+        "end_ms": 112722,
+        "text": "на"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 113380,
+        "end_ms": 115557,
+        "text": "Нет, ну не, не, не, не, не,"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 116367,
+        "end_ms": 117109,
+        "text": "Нормочая"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 117599,
+        "end_ms": 118291,
+        "text": "\"Веди давай\""
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 121345,
+        "end_ms": 124298,
+        "text": "Вот ты начинаешь, что-то говоришь, что нормально, а потом."
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 124652,
+        "end_ms": 124973,
+        "text": "кон"
+      },
+      {
+        "speaker_id": "speaker_6",
+        "start_ms": 124973,
+        "end_ms": 125918,
+        "text": "Спочи что это"
+      },
+      {
+        "speaker_id": "speaker_6",
+        "start_ms": 126306,
+        "end_ms": 127977,
+        "text": "Пропадает"
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 127977,
+        "end_ms": 128247,
+        "text": "Т"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 130525,
+        "end_ms": 134558,
+        "text": "что не в доме, штиконез никуда не делался я смотрю за твежу"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 135334,
+        "end_ms": 135773,
+        "text": "Вер"
+      },
+      {
+        "speaker_id": "speaker_10",
+        "start_ms": 137393,
+        "end_ms": 137579,
+        "text": "В"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 137612,
+        "end_ms": 137781,
+        "text": "С"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 137697,
+        "end_ms": 138591,
+        "text": "Реацию"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 140751,
+        "end_ms": 143637,
+        "text": "Ну, ну, ну, все что-то дозыгает."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 141460,
+        "end_ms": 143029,
+        "text": "Ну если что-то дозыр"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 144177,
+        "end_ms": 144379,
+        "text": "А"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 147046,
+        "end_ms": 148986,
+        "text": "А я сейчас пока дома буду чазать."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 147096,
+        "end_ms": 149712,
+        "text": "Я сейчас пока дома буду сейчас брать."
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 152311,
+        "end_ms": 154335,
+        "text": "Даня, я сейчас мышим, когда буду видео"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 154335,
+        "end_ms": 154926,
+        "text": "Ты же дел"
+      },
+      {
+        "speaker_id": "speaker_11",
+        "start_ms": 156681,
+        "end_ms": 157086,
+        "text": "Ну"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 157913,
+        "end_ms": 158149,
+        "text": "да"
+      },
+      {
+        "speaker_id": "speaker_12",
+        "start_ms": 158149,
+        "end_ms": 158672,
+        "text": "Сталан"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 158672,
+        "end_ms": 160107,
+        "text": "Я уже подключал"
+      },
+      {
+        "speaker_id": "speaker_11",
+        "start_ms": 158689,
+        "end_ms": 159111,
+        "text": "Пош"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 161102,
+        "end_ms": 162064,
+        "text": "Мноза п"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 162064,
+        "end_ms": 162267,
+        "text": "С"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 162638,
+        "end_ms": 165102,
+        "text": "Ну давай, ладно, если чё на беру"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 165051,
+        "end_ms": 165355,
+        "text": "еще"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 165473,
+        "end_ms": 165878,
+        "text": "н"
+      },
+      {
+        "speaker_id": "speaker_13",
+        "start_ms": 165962,
+        "end_ms": 166772,
+        "text": "А"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 166401,
+        "end_ms": 166688,
+        "text": "Р"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 167886,
+        "end_ms": 168224,
+        "text": "да"
+      }
+    ]
+  },
+  "durationMs": 169012,
+  "processingMs": 283182,
+  "llmCalls": 76,
+  "rejectedEdits": 19,
+  "overlap": true
+}

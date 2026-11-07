@@ -1,0 +1,18 @@
+{
+  "fixture": "russian-noise.wav",
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 30,
+        "end_ms": 10280,
+        "text": "Добрый день! Давайте обсудим план работы. Сегодня мы с подготовим приложение. Завтра проверим качество распознавания и сохраним результат файл."
+      }
+    ]
+  },
+  "durationMs": 10280,
+  "processingMs": 13850,
+  "llmCalls": 1,
+  "rejectedEdits": 0,
+  "overlap": false
+}

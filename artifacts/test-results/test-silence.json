@@ -1,0 +1,15 @@
+{
+  "stageMs": {
+    "models": 1,
+    "decode": 20,
+    "diarization": 534
+  },
+  "result": {
+    "transcript": []
+  },
+  "durationMs": 5000,
+  "processingMs": 556,
+  "llmCalls": 0,
+  "rejectedEdits": 0,
+  "overlap": false
+}

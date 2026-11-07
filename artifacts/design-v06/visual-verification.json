@@ -1,0 +1,11 @@
+{
+  "apk_sha256": "495e5358ec87fa7542327ff22059d4cb88424722285053d81af3596696cf66ea",
+  "visual_test_unique_methods": 1,
+  "runs_passed": 2,
+  "viewports": [
+    "390x844 dp, font 1.0",
+    "320x714 dp, font 1.5"
+  ],
+  "fixture": "Mock text and silence; not ASR evidence",
+  "original_user_state_restored": true
+}

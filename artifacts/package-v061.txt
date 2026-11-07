@@ -1,0 +1,1 @@
+Validated 24 JVM tests; APK 949695740 bytes; local Git commit 60de38572d0b7408a217611ca234f37d4f13f838

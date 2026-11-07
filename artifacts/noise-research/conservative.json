@@ -1,0 +1,902 @@
+[
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 14.23788070678711,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте обсудим план работы, сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 6.770849227905273,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подзотовим приложение. Завтра проверим качество распознавания и сохранения результат спайл.",
+      "reference_words": 19,
+      "errors": 4,
+      "wer": 0.21052631578947367
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подзотовим приложение. Завтра проверим качество распознавания и сохраним результат файл.",
+      "reference_words": 19,
+      "errors": 2,
+      "wer": 0.10526315789473684
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.465911865234375,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте отсюда и в тван работы. Сегодня мы подготовим приложение. В завтра проверим качество расслабнования и социрования в результат спальни.",
+      "reference_words": 19,
+      "errors": 10,
+      "wer": 0.5263157894736842
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте отсюда в план работы. Сегодня мы подготовим приложение. Завтра проверим качество расслабнования и сохранения вечно-таки спальни.",
+      "reference_words": 19,
+      "errors": 7,
+      "wer": 0.3684210526315789
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.87916374206543,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте отсюда и план работы. Сегодня мы подготовим приложение. Завтра проверим качество расходнования и сохранения в результат спальни.",
+      "reference_words": 19,
+      "errors": 7,
+      "wer": 0.3684210526315789
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество расстанования и сохранения результации с файмом.",
+      "reference_words": 19,
+      "errors": 5,
+      "wer": 0.2631578947368421
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 7.179021835327148,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат с файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат с файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 8.561849594116211,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    },
+    "enhanced": {
+      "text": "встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 7.0400238037109375,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    },
+    "enhanced": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты и статаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 4,
+      "wer": 0.16666666666666666
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.38890266418457,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется 20 часов утра. Анна подготовит документы, а сервий проверит оборудование. После обеда обсудили результаты инститаний и расредили задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 9,
+      "wer": 0.375
+    },
+    "enhanced": {
+      "text": "Встричен начнётов 20 часов утра, Анна подготовит документы, а сервий проверит оборудование. После объявя обсудили результаты и испытания распределивы задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 12,
+      "wer": 0.5
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 6.225824356079102,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется 10 часов утра. Анна подготовит документы, а сервии проверит оборудование. После обеда обсудили результаты инститаний и распределили задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 9,
+      "wer": 0.375
+    },
+    "enhanced": {
+      "text": "А на подготовит документы, а сервии проверит оборудование. После обеда обсудили результаты и статани распределивы задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 14,
+      "wer": 0.5833333333333334
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 7.523059844970703,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задача на следующую неделю.",
+      "reference_words": 24,
+      "errors": 3,
+      "wer": 0.125
+    },
+    "enhanced": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задача на следующую неделю.",
+      "reference_words": 24,
+      "errors": 3,
+      "wer": 0.125
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 5.961894989013672,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "reference_words": 23,
+      "errors": 5,
+      "wer": 0.21739130434782608
+    },
+    "enhanced": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "reference_words": 23,
+      "errors": 5,
+      "wer": 0.21739130434782608
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 5.446910858154297,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "Пожалуйста, проверьте билеты и забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зон.",
+      "reference_words": 23,
+      "errors": 7,
+      "wer": 0.30434782608695654
+    },
+    "enhanced": {
+      "text": "Пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идёт сильный дождь, поэтому возьмите с собой зон.",
+      "reference_words": 23,
+      "errors": 6,
+      "wer": 0.2608695652173913
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.906032562255859,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "Стоять придивает на второй пожалуй править где-то и забывайте личные вещи на улице где-то и дождь по этому возникам с собой зон",
+      "reference_words": 23,
+      "errors": 14,
+      "wer": 0.6086956521739131
+    },
+    "enhanced": {
+      "text": "Позже вонит.",
+      "reference_words": 23,
+      "errors": 23,
+      "wer": 1.0
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.347728729248047,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "Пожалуйста, проверьте где ты не забывайте личные вещи. На улице идёт силе дождь, поэтому возьмитесь с собой зон.",
+      "reference_words": 23,
+      "errors": 10,
+      "wer": 0.43478260869565216
+    },
+    "enhanced": {
+      "text": "Пожалуйста, проверьте где ты не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмитесь с собой зон.",
+      "reference_words": 23,
+      "errors": 9,
+      "wer": 0.391304347826087
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 5.990028381347656,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "reference_words": 23,
+      "errors": 5,
+      "wer": 0.21739130434782608
+    },
+    "enhanced": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "reference_words": 23,
+      "errors": 5,
+      "wer": 0.21739130434782608
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 5.381107330322266,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 5.893945693969727,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor, we need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.060123443603516,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 16,
+      "wer": 0.5517241379310345
+    },
+    "enhanced": {
+      "text": "We need to compare the measurements and write a short report by Friday",
+      "reference_words": 29,
+      "errors": 16,
+      "wer": 0.5517241379310345
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 4.993915557861328,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 7.090091705322266,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 5.780935287475586,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 4.899024963378906,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 5.736112594604492,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quite a bit until it too aroused.",
+      "reference_words": 28,
+      "errors": 5,
+      "wer": 0.17857142857142858
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.078792572021484,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it blew away.",
+      "reference_words": 28,
+      "errors": 1,
+      "wer": 0.03571428571428571
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it blew away.",
+      "reference_words": 28,
+      "errors": 1,
+      "wer": 0.03571428571428571
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 5.759000778198242,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 3.6661624908447266,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 3.5560131072998047,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 3.390073776245117,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 3.988027572631836,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 3.7980079650878906,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 2.849102020263672,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 1,
+      "wer": 0.09090909090909091
+    },
+    "enhanced": {
+      "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 1,
+      "wer": 0.09090909090909091
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 2.820730209350586,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Norris Mr. Quilters' manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 5,
+      "wer": 0.45454545454545453
+    },
+    "enhanced": {
+      "text": "Norris Mr. Quilter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 3,
+      "wer": 0.2727272727272727
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 4.443168640136719,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Norris, Mr. Quoters, may not rest interest in them, his matter.",
+      "reference_words": 11,
+      "errors": 9,
+      "wer": 0.8181818181818182
+    },
+    "enhanced": {
+      "text": "Norris Mr. Quotor's manner lets interest in his matter.",
+      "reference_words": 11,
+      "errors": 7,
+      "wer": 0.6363636363636364
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 2.8128623962402344,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Norris Mr. Cultor's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 4,
+      "wer": 0.36363636363636365
+    },
+    "enhanced": {
+      "text": "Norris Mr. Cultures Manor less interested than his matter.",
+      "reference_words": 11,
+      "errors": 7,
+      "wer": 0.6363636363636364
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 2.8200149536132812,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Nor is Mr. Colter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 2,
+      "wer": 0.18181818181818182
+    },
+    "enhanced": {
+      "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 1,
+      "wer": 0.09090909090909091
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 10.502815246582031,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 8.714914321899414,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 3,
+      "wer": 0.09375
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 8.35418701171875,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those big roomy before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 4,
+      "wer": 0.125
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those feet blooming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 4,
+      "wer": 0.125
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 7.014989852905273,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those beef loomings before us, similarly is drawn from eating and its results occur more readily to the mind.",
+      "reference_words": 32,
+      "errors": 5,
+      "wer": 0.15625
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 9.629249572753906,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 3,
+      "wer": 0.09375
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 3,
+      "wer": 0.09375
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 6.330966949462891,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "He has grieved doubts whether Sir Frederick Layton's work is really Greek after all and can discover in it but little of Rocky Ithaca.",
+      "reference_words": 25,
+      "errors": 2,
+      "wer": 0.08
+    },
+    "enhanced": {
+      "text": "He has grieved doubts whether Sir Frederick Layton's work is really Greek after all and can discover in it but little of Rocky Ithaca.",
+      "reference_words": 25,
+      "errors": 2,
+      "wer": 0.08
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 5.580902099609375,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "It has great doubts whether Sir Frederick Layton's work is really good after all, and can discover in it but little of Watte-Ithaca.",
+      "reference_words": 25,
+      "errors": 5,
+      "wer": 0.2
+    },
+    "enhanced": {
+      "text": "It has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Itaka.",
+      "reference_words": 25,
+      "errors": 6,
+      "wer": 0.24
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.026029586791992,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "It has great doubts whether specific latent work is really good after all and can discover in it but little of what the Eticaque.",
+      "reference_words": 25,
+      "errors": 10,
+      "wer": 0.4
+    },
+    "enhanced": {
+      "text": "It has great doubts whether surface latent work is really grouped after all and can discover in it but little of Watte-Ithaca.",
+      "reference_words": 25,
+      "errors": 8,
+      "wer": 0.32
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.511283874511719,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "It has great notes whether it's appropriate to lay things in work, it's really good after all, and can discover in it but little of walking in the car.",
+      "reference_words": 25,
+      "errors": 17,
+      "wer": 0.68
+    },
+    "enhanced": {
+      "text": "It has great doubts whether Sir Frederick Layton's work is really good after all and can discover in it but little of Watty Ithaca.",
+      "reference_words": 25,
+      "errors": 5,
+      "wer": 0.2
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 7.265806198120117,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "He has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Ithaca.",
+      "reference_words": 25,
+      "errors": 4,
+      "wer": 0.16
+    },
+    "enhanced": {
+      "text": "He has graved doubts whether Sir Frederick Layton's work is really greet after all and can discover in it but little of Waki Ithaca.",
+      "reference_words": 25,
+      "errors": 4,
+      "wer": 0.16
+    }
+  }
+]

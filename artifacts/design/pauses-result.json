@@ -1,0 +1,33 @@
+{
+  "stageMs": {
+    "models": 0,
+    "decode": 19,
+    "diarization": 535,
+    "asrLoad": 1058,
+    "asr": 4064,
+    "llmLoad": 141,
+    "llm": 875
+  },
+  "fixture": "russian-pauses.wav",
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 40,
+        "end_ms": 10260,
+        "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат файл."
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 15240,
+        "end_ms": 25540,
+        "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат файл."
+      }
+    ]
+  },
+  "durationMs": 25561,
+  "processingMs": 6695,
+  "llmCalls": 1,
+  "rejectedEdits": 0,
+  "overlap": false
+}

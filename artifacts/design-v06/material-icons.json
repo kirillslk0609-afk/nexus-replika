@@ -1,0 +1,37 @@
+[
+  {
+    "name": "play_arrow",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/av/play_arrow/materialicons/24px.svg",
+    "source_sha256": "39d601c1d4199c5cadddf5f96a1f57157147d1eedc7a147cdadc29805c6d5fea"
+  },
+  {
+    "name": "pause",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/av/pause/materialicons/24px.svg",
+    "source_sha256": "e761b758c1062e3aed85186ded662bf63dc7ee7f2e495d5feddc5041fe9ccd73"
+  },
+  {
+    "name": "content_copy",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/content/content_copy/materialicons/24px.svg",
+    "source_sha256": "6f6b2c7038f181364540792ce558bbf09980b0204b2faee0f3964ec100b4739e"
+  },
+  {
+    "name": "insert_drive_file",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/editor/insert_drive_file/materialicons/24px.svg",
+    "source_sha256": "1d08e14befdb44d6767807fdb8e427376bf7bf8c61f4d2baae4058a1be089e2e"
+  },
+  {
+    "name": "info_outline",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/action/info_outline/materialicons/24px.svg",
+    "source_sha256": "a42754d3d043129a6ab28d33afa624375aa6e831c89159716610fe4d9016e8f3"
+  },
+  {
+    "name": "verified_user",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/action/verified_user/materialicons/24px.svg",
+    "source_sha256": "776b777deab1dcb069c834d6e5d58aaf01a45ac4a5ab97f1c9a0b04f8b8b9a02"
+  },
+  {
+    "name": "more_vert",
+    "source": "https://raw.githubusercontent.com/google/material-design-icons/master/src/navigation/more_vert/materialicons/24px.svg",
+    "source_sha256": "4f59e208f5babcf58c07505356ca1f109a9e1972e839b991dff19f709a28eeba"
+  }
+]

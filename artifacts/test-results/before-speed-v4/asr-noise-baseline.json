@@ -1,0 +1,866 @@
+{
+  "cases": [
+    {
+      "name": "original",
+      "language": "ru",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/original-clean.wav",
+      "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+      "baseline": {
+        "text": "Добрый день! Давайте обсудим план работы, сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл.",
+        "reference_words": 19,
+        "errors": 1,
+        "wer": 0.05263157894736842
+      },
+      "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл.",
+      "errors": 1,
+      "referenceWords": 19,
+      "durationMs": 10240,
+      "recognitionMs": 3514
+    },
+    {
+      "name": "original",
+      "language": "ru",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/original-white12.wav",
+      "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+      "baseline": {
+        "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подзотовим приложение. Завтра проверим качество распознавания и сохранения результат спайл.",
+        "reference_words": 19,
+        "errors": 4,
+        "wer": 0.21052631578947367
+      },
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подзотовим приложение. Завтра проверим качество распознавания и сохраним результат спайл.",
+      "errors": 3,
+      "referenceWords": 19,
+      "durationMs": 10240,
+      "recognitionMs": 3903
+    },
+    {
+      "name": "original",
+      "language": "ru",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/original-white6.wav",
+      "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+      "baseline": {
+        "text": "Добрый день! Давайте отсюда и в тван работы. Сегодня мы подготовим приложение. В завтра проверим качество расслабнования и социрования в результат спальни.",
+        "reference_words": 19,
+        "errors": 10,
+        "wer": 0.5263157894736842
+      },
+      "text": "Добрый день! Давайте отсюда и в тван работы. Сегодня мы подготовим приложение. Давтра проверим качество расслабнования и социрования в мире вентябль.",
+      "errors": 10,
+      "referenceWords": 19,
+      "durationMs": 10240,
+      "recognitionMs": 3777
+    },
+    {
+      "name": "original",
+      "language": "ru",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/original-pink6.wav",
+      "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+      "baseline": {
+        "text": "Добрый день! Давайте отсюда и план работы. Сегодня мы подготовим приложение. Завтра проверим качество расходнования и сохранения в результат спальни.",
+        "reference_words": 19,
+        "errors": 7,
+        "wer": 0.3684210526315789
+      },
+      "text": "Добрый день! Давайте отсюда и план работы. Сегодня мы подготовим приложение. Завтра проверим качество расстанования и сохранения в результат спальни.",
+      "errors": 7,
+      "referenceWords": 19,
+      "durationMs": 10240,
+      "recognitionMs": 3410
+    },
+    {
+      "name": "original",
+      "language": "ru",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/original-hum6.wav",
+      "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+      "baseline": {
+        "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат с файл.",
+        "reference_words": 19,
+        "errors": 1,
+        "wer": 0.05263157894736842
+      },
+      "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат с файл.",
+      "errors": 1,
+      "referenceWords": 19,
+      "durationMs": 10240,
+      "recognitionMs": 3407
+    },
+    {
+      "name": "schedule",
+      "language": "ru",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/schedule-clean.wav",
+      "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "baseline": {
+        "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+        "reference_words": 24,
+        "errors": 2,
+        "wer": 0.08333333333333333
+      },
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "errors": 2,
+      "referenceWords": 24,
+      "durationMs": 11226,
+      "recognitionMs": 4747
+    },
+    {
+      "name": "schedule",
+      "language": "ru",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/schedule-white12.wav",
+      "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "baseline": {
+        "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+        "reference_words": 24,
+        "errors": 2,
+        "wer": 0.08333333333333333
+      },
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "errors": 2,
+      "referenceWords": 24,
+      "durationMs": 11226,
+      "recognitionMs": 3500
+    },
+    {
+      "name": "schedule",
+      "language": "ru",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/schedule-white6.wav",
+      "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "baseline": {
+        "text": "Встреча начнется 20 часов утра. Анна подготовит документы, а сервий проверит оборудование. После обеда обсудили результаты инститаний и расредили задачи на следующие недели.",
+        "reference_words": 24,
+        "errors": 9,
+        "wer": 0.375
+      },
+      "text": "Встреча начнется 20 часов утра. Анна подготовит документы, а сервий проверит оборудование. После обеда обсудили результаты инститаний и распределили задачи на следующие недели.",
+      "errors": 9,
+      "referenceWords": 24,
+      "durationMs": 11226,
+      "recognitionMs": 1132
+    },
+    {
+      "name": "schedule",
+      "language": "ru",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/schedule-pink6.wav",
+      "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "baseline": {
+        "text": "Встреча начнется 10 часов утра. Анна подготовит документы, а сервии проверит оборудование. После обеда обсудили результаты инститаний и распределили задачи на следующие недели.",
+        "reference_words": 24,
+        "errors": 9,
+        "wer": 0.375
+      },
+      "text": "Встреча начнется 10 часов утра. Анна подготовит документы, а сервии проверит оборудование. После обеда обсудили результаты и испытания и распределили задачи на следующие недели.",
+      "errors": 10,
+      "referenceWords": 24,
+      "durationMs": 11226,
+      "recognitionMs": 4491
+    },
+    {
+      "name": "schedule",
+      "language": "ru",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/schedule-hum6.wav",
+      "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "baseline": {
+        "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задача на следующую неделю.",
+        "reference_words": 24,
+        "errors": 3,
+        "wer": 0.125
+      },
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задача на следующую неделю.",
+      "errors": 3,
+      "referenceWords": 24,
+      "durationMs": 11226,
+      "recognitionMs": 2966
+    },
+    {
+      "name": "travel",
+      "language": "ru",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/travel-clean.wav",
+      "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+      "baseline": {
+        "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+        "reference_words": 23,
+        "errors": 5,
+        "wer": 0.21739130434782608
+      },
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "errors": 5,
+      "referenceWords": 23,
+      "durationMs": 9411,
+      "recognitionMs": 3573
+    },
+    {
+      "name": "travel",
+      "language": "ru",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/travel-white12.wav",
+      "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+      "baseline": {
+        "text": "Пожалуйста, проверьте билеты и забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зон.",
+        "reference_words": 23,
+        "errors": 7,
+        "wer": 0.30434782608695654
+      },
+      "text": "Пожалуйста, проверьте билеты и забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зон.",
+      "errors": 7,
+      "referenceWords": 23,
+      "durationMs": 9411,
+      "recognitionMs": 2143
+    },
+    {
+      "name": "travel",
+      "language": "ru",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/travel-white6.wav",
+      "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+      "baseline": {
+        "text": "Стоять придивает на второй пожалуй править где-то и забывайте личные вещи на улице где-то и дождь по этому возникам с собой зон",
+        "reference_words": 23,
+        "errors": 14,
+        "wer": 0.6086956521739131
+      },
+      "text": "Позже подъем.",
+      "errors": 23,
+      "referenceWords": 23,
+      "durationMs": 9411,
+      "recognitionMs": 918
+    },
+    {
+      "name": "travel",
+      "language": "ru",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/travel-pink6.wav",
+      "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+      "baseline": {
+        "text": "Пожалуйста, проверьте где ты не забывайте личные вещи. На улице идёт силе дождь, поэтому возьмитесь с собой зон.",
+        "reference_words": 23,
+        "errors": 10,
+        "wer": 0.43478260869565216
+      },
+      "text": "Проверьте где ты не забывайте личные вещи. На улице идёт силе дождь. Поэтому возьмитесь с собой зон.",
+      "errors": 11,
+      "referenceWords": 23,
+      "durationMs": 9411,
+      "recognitionMs": 2140
+    },
+    {
+      "name": "travel",
+      "language": "ru",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/travel-hum6.wav",
+      "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+      "baseline": {
+        "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+        "reference_words": 23,
+        "errors": 5,
+        "wer": 0.21739130434782608
+      },
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "errors": 5,
+      "referenceWords": 23,
+      "durationMs": 9411,
+      "recognitionMs": 2553
+    },
+    {
+      "name": "lab",
+      "language": "en",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/lab-clean.wav",
+      "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "baseline": {
+        "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+        "reference_words": 29,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "errors": 0,
+      "referenceWords": 29,
+      "durationMs": 8677,
+      "recognitionMs": 1809
+    },
+    {
+      "name": "lab",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/lab-white12.wav",
+      "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "baseline": {
+        "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+        "reference_words": 29,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "errors": 0,
+      "referenceWords": 29,
+      "durationMs": 8677,
+      "recognitionMs": 1745
+    },
+    {
+      "name": "lab",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/lab-white6.wav",
+      "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "baseline": {
+        "text": "We need to compare the measurements and write a short report by Friday.",
+        "reference_words": 29,
+        "errors": 16,
+        "wer": 0.5517241379310345
+      },
+      "text": "We need to compare the measurements and write a short report by Friday.",
+      "errors": 16,
+      "referenceWords": 29,
+      "durationMs": 8677,
+      "recognitionMs": 956
+    },
+    {
+      "name": "lab",
+      "language": "en",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/lab-pink6.wav",
+      "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "baseline": {
+        "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+        "reference_words": 29,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "errors": 0,
+      "referenceWords": 29,
+      "durationMs": 8677,
+      "recognitionMs": 1779
+    },
+    {
+      "name": "lab",
+      "language": "en",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/lab-hum6.wav",
+      "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "baseline": {
+        "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+        "reference_words": 29,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "errors": 0,
+      "referenceWords": 29,
+      "durationMs": 8677,
+      "recognitionMs": 1943
+    },
+    {
+      "name": "garden",
+      "language": "en",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/garden-clean.wav",
+      "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "baseline": {
+        "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+        "reference_words": 28,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "errors": 0,
+      "referenceWords": 28,
+      "durationMs": 8514,
+      "recognitionMs": 1916
+    },
+    {
+      "name": "garden",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/garden-white12.wav",
+      "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "baseline": {
+        "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+        "reference_words": 28,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "errors": 0,
+      "referenceWords": 28,
+      "durationMs": 8514,
+      "recognitionMs": 1930
+    },
+    {
+      "name": "garden",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/garden-white6.wav",
+      "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "baseline": {
+        "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quite a bit until it too aroused.",
+        "reference_words": 28,
+        "errors": 5,
+        "wer": 0.17857142857142858
+      },
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quite a bit until it too lay.",
+      "errors": 5,
+      "referenceWords": 28,
+      "durationMs": 8514,
+      "recognitionMs": 1983
+    },
+    {
+      "name": "garden",
+      "language": "en",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/garden-pink6.wav",
+      "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "baseline": {
+        "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it blew away.",
+        "reference_words": 28,
+        "errors": 1,
+        "wer": 0.03571428571428571
+      },
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it blew away.",
+      "errors": 1,
+      "referenceWords": 28,
+      "durationMs": 8514,
+      "recognitionMs": 1787
+    },
+    {
+      "name": "garden",
+      "language": "en",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/garden-hum6.wav",
+      "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "baseline": {
+        "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+        "reference_words": 28,
+        "errors": 0,
+        "wer": 0
+      },
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "errors": 0,
+      "referenceWords": 28,
+      "durationMs": 8514,
+      "recognitionMs": 1758
+    },
+    {
+      "name": "libri-1272-128104-0000",
+      "language": "en",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/libri-1272-128104-0000-clean.wav",
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "baseline": {
+        "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+        "reference_words": 17,
+        "errors": 1,
+        "wer": 0.058823529411764705
+      },
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "errors": 1,
+      "referenceWords": 17,
+      "durationMs": 5815,
+      "recognitionMs": 1287
+    },
+    {
+      "name": "libri-1272-128104-0000",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/libri-1272-128104-0000-white12.wav",
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "baseline": {
+        "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+        "reference_words": 17,
+        "errors": 1,
+        "wer": 0.058823529411764705
+      },
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "errors": 1,
+      "referenceWords": 17,
+      "durationMs": 5815,
+      "recognitionMs": 1147
+    },
+    {
+      "name": "libri-1272-128104-0000",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0000-white6.wav",
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "baseline": {
+        "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+        "reference_words": 17,
+        "errors": 1,
+        "wer": 0.058823529411764705
+      },
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "errors": 1,
+      "referenceWords": 17,
+      "durationMs": 5815,
+      "recognitionMs": 1300
+    },
+    {
+      "name": "libri-1272-128104-0000",
+      "language": "en",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0000-pink6.wav",
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "baseline": {
+        "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+        "reference_words": 17,
+        "errors": 1,
+        "wer": 0.058823529411764705
+      },
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "errors": 1,
+      "referenceWords": 17,
+      "durationMs": 5815,
+      "recognitionMs": 1307
+    },
+    {
+      "name": "libri-1272-128104-0000",
+      "language": "en",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0000-hum6.wav",
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "baseline": {
+        "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+        "reference_words": 17,
+        "errors": 1,
+        "wer": 0.058823529411764705
+      },
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "errors": 1,
+      "referenceWords": 17,
+      "durationMs": 5815,
+      "recognitionMs": 1249
+    },
+    {
+      "name": "libri-1272-128104-0001",
+      "language": "en",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/libri-1272-128104-0001-clean.wav",
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "baseline": {
+        "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+        "reference_words": 11,
+        "errors": 1,
+        "wer": 0.09090909090909091
+      },
+      "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+      "errors": 1,
+      "referenceWords": 11,
+      "durationMs": 4775,
+      "recognitionMs": 1042
+    },
+    {
+      "name": "libri-1272-128104-0001",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/libri-1272-128104-0001-white12.wav",
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "baseline": {
+        "text": "Norris Mr. Quilters' manner less interesting than his matter.",
+        "reference_words": 11,
+        "errors": 5,
+        "wer": 0.45454545454545453
+      },
+      "text": "Norris Mr. Quilters' manner less interesting than his matter.",
+      "errors": 5,
+      "referenceWords": 11,
+      "durationMs": 4775,
+      "recognitionMs": 953
+    },
+    {
+      "name": "libri-1272-128104-0001",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0001-white6.wav",
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "baseline": {
+        "text": "Norris, Mr. Quoters, may not rest interest in them, his matter.",
+        "reference_words": 11,
+        "errors": 9,
+        "wer": 0.8181818181818182
+      },
+      "text": "Norris, Mr. Quoters, may know less interesting than his matter.",
+      "errors": 6,
+      "referenceWords": 11,
+      "durationMs": 4775,
+      "recognitionMs": 1012
+    },
+    {
+      "name": "libri-1272-128104-0001",
+      "language": "en",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0001-pink6.wav",
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "baseline": {
+        "text": "Norris Mr. Cultor's manner less interesting than his matter.",
+        "reference_words": 11,
+        "errors": 4,
+        "wer": 0.36363636363636365
+      },
+      "text": "Norris Mr. Cultor's manner less interesting than his matter.",
+      "errors": 4,
+      "referenceWords": 11,
+      "durationMs": 4775,
+      "recognitionMs": 959
+    },
+    {
+      "name": "libri-1272-128104-0001",
+      "language": "en",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0001-hum6.wav",
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "baseline": {
+        "text": "Nor is Mr. Colter's manner less interesting than his matter.",
+        "reference_words": 11,
+        "errors": 2,
+        "wer": 0.18181818181818182
+      },
+      "text": "Nor is Mr. Colter's manner less interesting than his matter.",
+      "errors": 2,
+      "referenceWords": 11,
+      "durationMs": 4775,
+      "recognitionMs": 879
+    },
+    {
+      "name": "libri-1272-128104-0002",
+      "language": "en",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/libri-1272-128104-0002-clean.wav",
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "baseline": {
+        "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+        "reference_words": 32,
+        "errors": 2,
+        "wer": 0.0625
+      },
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "errors": 2,
+      "referenceWords": 32,
+      "durationMs": 12445,
+      "recognitionMs": 2234
+    },
+    {
+      "name": "libri-1272-128104-0002",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/libri-1272-128104-0002-white12.wav",
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "baseline": {
+        "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+        "reference_words": 32,
+        "errors": 2,
+        "wer": 0.0625
+      },
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "errors": 2,
+      "referenceWords": 32,
+      "durationMs": 12445,
+      "recognitionMs": 2191
+    },
+    {
+      "name": "libri-1272-128104-0002",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0002-white6.wav",
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "baseline": {
+        "text": "He tells us that at this festive season of the year, with Christmas and those big roomy before us, similarly drawn from eating and its results occur most readily to the mind.",
+        "reference_words": 32,
+        "errors": 4,
+        "wer": 0.125
+      },
+      "text": "He tells us that at this festive season of the year, with Christmas and those big roomy before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "errors": 4,
+      "referenceWords": 32,
+      "durationMs": 12445,
+      "recognitionMs": 2488
+    },
+    {
+      "name": "libri-1272-128104-0002",
+      "language": "en",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0002-pink6.wav",
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "baseline": {
+        "text": "He tells us that at this festive season of the year, with Christmas and those beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+        "reference_words": 32,
+        "errors": 2,
+        "wer": 0.0625
+      },
+      "text": "He tells us that at this festive season of the year, with Christmas and those beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "errors": 2,
+      "referenceWords": 32,
+      "durationMs": 12445,
+      "recognitionMs": 2274
+    },
+    {
+      "name": "libri-1272-128104-0002",
+      "language": "en",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0002-hum6.wav",
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "baseline": {
+        "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+        "reference_words": 32,
+        "errors": 3,
+        "wer": 0.09375
+      },
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "errors": 3,
+      "referenceWords": 32,
+      "durationMs": 12445,
+      "recognitionMs": 2376
+    },
+    {
+      "name": "libri-1272-128104-0003",
+      "language": "en",
+      "noise": "clean",
+      "snr_db": null,
+      "file": "noise/libri-1272-128104-0003-clean.wav",
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "baseline": {
+        "text": "He has grieved doubts whether Sir Frederick Layton's work is really Greek after all and can discover in it but little of Rocky Ithaca.",
+        "reference_words": 25,
+        "errors": 2,
+        "wer": 0.08
+      },
+      "text": "He has grieved doubts whether Sir Frederick Layton's work is really Greek after all and can discover in it but little of Rocky Ithaca.",
+      "errors": 2,
+      "referenceWords": 25,
+      "durationMs": 9860,
+      "recognitionMs": 1920
+    },
+    {
+      "name": "libri-1272-128104-0003",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 12,
+      "file": "noise/libri-1272-128104-0003-white12.wav",
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "baseline": {
+        "text": "It has great doubts whether Sir Frederick Layton's work is really good after all, and can discover in it but little of Watte-Ithaca.",
+        "reference_words": 25,
+        "errors": 5,
+        "wer": 0.2
+      },
+      "text": "It has great doubts whether Sir Frederick Layton's work is really good after all and can discover in it but little of Watte-Ithaca.",
+      "errors": 5,
+      "referenceWords": 25,
+      "durationMs": 9860,
+      "recognitionMs": 1857
+    },
+    {
+      "name": "libri-1272-128104-0003",
+      "language": "en",
+      "noise": "white",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0003-white6.wav",
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "baseline": {
+        "text": "It has great doubts whether specific latent work is really good after all and can discover in it but little of what the Eticaque.",
+        "reference_words": 25,
+        "errors": 10,
+        "wer": 0.4
+      },
+      "text": "It has great doubts whether it's a perfect latent work is really good after all and can discover in it but little of what the Eticaque.",
+      "errors": 11,
+      "referenceWords": 25,
+      "durationMs": 9860,
+      "recognitionMs": 1822
+    },
+    {
+      "name": "libri-1272-128104-0003",
+      "language": "en",
+      "noise": "pink",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0003-pink6.wav",
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "baseline": {
+        "text": "It has great notes whether it's appropriate to lay things in work, it's really good after all, and can discover in it but little of walking in the car.",
+        "reference_words": 25,
+        "errors": 17,
+        "wer": 0.68
+      },
+      "text": "It has great notes whether it's appropriate for the latins work is really good after all and can discover in it but little of walking in the car.",
+      "errors": 14,
+      "referenceWords": 25,
+      "durationMs": 9860,
+      "recognitionMs": 1807
+    },
+    {
+      "name": "libri-1272-128104-0003",
+      "language": "en",
+      "noise": "hum",
+      "snr_db": 6,
+      "file": "noise/libri-1272-128104-0003-hum6.wav",
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "baseline": {
+        "text": "He has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Ithaca.",
+        "reference_words": 25,
+        "errors": 4,
+        "wer": 0.16
+      },
+      "text": "He has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Ithaca.",
+      "errors": 4,
+      "referenceWords": 25,
+      "durationMs": 9860,
+      "recognitionMs": 1771
+    }
+  ],
+  "airplaneMode": true,
+  "maxSampledPssKb": 591045,
+  "apk_sha256": "87b5752d154e49dee143b8f41a6d21db19d01691fb7a3ea21458f2b2e6540db1",
+  "version": "0.2.0",
+  "serial": "emulator-5566",
+  "model": "Whisper base multilingual INT8",
+  "scope": "ASR on identical 40ms-cropped float32 PCM; not full pipeline WER"
+}

@@ -1,0 +1,55 @@
+{
+  "environment": "macOS arm64, not Android",
+  "fixture": "synthetic 2-voice English conversation, macOS Samantha + Daniel",
+  "expected_speakers": 2,
+  "detected_speakers": 3,
+  "audio_seconds": 15.653125,
+  "elapsed_with_model_load_seconds": 0.6807979170698673,
+  "segments": [
+    {
+      "speaker": 1,
+      "start": 0.03096874989569187,
+      "end": 1.026593804359436
+    },
+    {
+      "speaker": 0,
+      "start": 1.026593804359436,
+      "end": 3.321593761444092
+    },
+    {
+      "speaker": 0,
+      "start": 3.929093837738037,
+      "end": 6.69659423828125
+    },
+    {
+      "speaker": 0,
+      "start": 7.169094085693359,
+      "end": 7.54034423828125
+    },
+    {
+      "speaker": 0,
+      "start": 7.844094276428223,
+      "end": 10.44284439086914
+    },
+    {
+      "speaker": 2,
+      "start": 10.94909381866455,
+      "end": 11.978468894958496
+    },
+    {
+      "speaker": 0,
+      "start": 11.978468894958496,
+      "end": 12.97409439086914
+    },
+    {
+      "speaker": 2,
+      "start": 12.97409439086914,
+      "end": 13.969718933105469
+    },
+    {
+      "speaker": 0,
+      "start": 13.969718933105469,
+      "end": 15.08346939086914
+    }
+  ]
+}

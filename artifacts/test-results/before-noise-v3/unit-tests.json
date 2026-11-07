@@ -1,0 +1,32 @@
+{
+  "suites": [
+    {
+      "suite": "ru.neuroscribe.app.core.TranscriptTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "ru.neuroscribe.app.core.SpeakerClusteringTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "ru.neuroscribe.app.engine.DiarizationProgressTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "ru.neuroscribe.app.core.PcmTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

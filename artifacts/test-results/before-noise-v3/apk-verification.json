@@ -1,0 +1,48 @@
+{
+  "apk_bytes": 733608385,
+  "apk_sha256": "87b5752d154e49dee143b8f41a6d21db19d01691fb7a3ea21458f2b2e6540db1",
+  "verified_model_files": [
+    "decoder.onnx",
+    "encoder.onnx",
+    "tokens.txt",
+    "punctuation.gguf",
+    "segmentation.onnx",
+    "embedding.onnx"
+  ],
+  "abi": "arm64-v8a",
+  "min_sdk": 26,
+  "internet_permission": false,
+  "elf_load_alignment": {
+    "libneuroscribe-llm.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libonnxruntime.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libsherpa-onnx-c-api.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libsherpa-onnx-cxx-api.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libsherpa-onnx-jni.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ]
+  },
+  "lint_errors": 0,
+  "lint_warnings": 15,
+  "signature_v2_verified": true,
+  "zipalign_16k_verified": true,
+  "physical_android_test": "not performed"
+}

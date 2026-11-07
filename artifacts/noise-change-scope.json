@@ -1,0 +1,38 @@
+{
+  "unchanged_source": [
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/engine/StableDiarizer.kt",
+      "sha256": "2d9b0e4cd66622f54c82207214cf65b8eea4737b738cf06224f57cd082fa8b59",
+      "unchanged_from_v02": true
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/core/SpeakerClustering.kt",
+      "sha256": "4a73b6835e4014158c77bb195f1ceda28ed47e208099a4aa4351e0a200afefe3",
+      "unchanged_from_v02": true
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/core/Pcm.kt",
+      "sha256": "9d35cbdacb5950153cfd38e84a1002b65b8db2f26c2c6e1d91dd681153234283",
+      "unchanged_from_v02": true
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/audio/AudioDecoder.kt",
+      "sha256": "007c531431367a3b852c048c38f16687b4876da92c1be394b509aaaff29b5ea7",
+      "unchanged_from_v02": true
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/core/Transcript.kt",
+      "sha256": "6b30c773d403401ed263933ad09f37812246dd4830998ec9bc83ab4ad5e97519",
+      "unchanged_from_v02": true
+    }
+  ],
+  "unchanged_diarization_models": [
+    "segmentation.onnx",
+    "embedding.onnx"
+  ],
+  "production_changes": [
+    "Whisper base INT8 -> multilingual Whisper small INT8",
+    "One repeat-decoding fallback on obvious textual loops; 200 ms zero padding at each end; no change to source PCM or slice timestamps"
+  ],
+  "new_model_suppression": false
+}

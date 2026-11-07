@@ -1,0 +1,12 @@
+{
+  "environment": "macOS arm64, not Android",
+  "fixture": "synthetic Russian speech, macOS Milena",
+  "text": "Добрый день, давайте обсудим план работы, сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл.",
+  "audio_seconds": 10.280625,
+  "elapsed_with_model_load_seconds": 0.8167825841810554,
+  "word_error_rate_on_this_synthetic_fixture": {
+    "reference_words": 19,
+    "errors": 1,
+    "wer": 0.05263157894736842
+  }
+}

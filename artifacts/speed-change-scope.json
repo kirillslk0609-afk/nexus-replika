@@ -1,0 +1,35 @@
+{
+  "unchanged_from_v03": [
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/engine/SpeechRecognizer.kt",
+      "sha256": "2cd7ad76eb949e85f57bb31e22e5d7bb612226bffdd78b6c3f2ad1312a1e137a"
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/engine/StableDiarizer.kt",
+      "sha256": "2d9b0e4cd66622f54c82207214cf65b8eea4737b738cf06224f57cd082fa8b59"
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/core/SpeakerClustering.kt",
+      "sha256": "4a73b6835e4014158c77bb195f1ceda28ed47e208099a4aa4351e0a200afefe3"
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/core/Transcript.kt",
+      "sha256": "6b30c773d403401ed263933ad09f37812246dd4830998ec9bc83ab4ad5e97519"
+    },
+    {
+      "file": "app/src/main/java/ru/neuroscribe/app/core/Pcm.kt",
+      "sha256": "9d35cbdacb5950153cfd38e84a1002b65b8db2f26c2c6e1d91dd681153234283"
+    }
+  ],
+  "all_six_model_files_unchanged": true,
+  "changes": [
+    "asynchronous MediaCodec callbacks overlap compressed input feeding and PCM processing, bounded to eight pending events; same codec and all PCM arithmetic",
+    "stop LLM output only when a completed word already fails the final lexical guard",
+    "bounded exact-text memoization within one recording",
+    "per-stage timing diagnostics; actual native LLM call count"
+  ],
+  "excluded_experiment": "KV prompt prefix reuse changed punctuation on 2/59 conversation turns; removed from final implementation.",
+  "excluded_codec_experiment": "Batching MediaCodec input did not improve the main MP3 control; original codec loop restored.",
+  "excluded_fir_experiment": "Mirrored/unrolled FIR did not provide meaningful decoding improvement; original FIR restored.",
+  "excluded_buffer_copy_experiment": "Bulk PCM copy did not provide meaningful decoding improvement; removed."
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-07",
+  "version": "0.4.0",
+  "method": "Isolated source copy; clean Gradle rebuild; pinned dependencies reused locally",
+  "command": "gradle clean && scripts/build.sh",
+  "success": true,
+  "jvm_tests": 24,
+  "dependency_cache_reused": true,
+  "fresh_network_download": false,
+  "byte_identical_claim": false,
+  "production_kotlin_and_jni_verified_identical": true,
+  "production_sources_sha256": {
+    "app/src/main/cpp/llm_jni.cpp": "261122f2337fe6b369843bfcfb44b59d8559a4144ae77e0dc25dbeaa52d5c143",
+    "app/src/main/java/ru/neuroscribe/app/MainActivity.kt": "c7e36ebfd4a6ba1ef9c955e3670f4dc63747b5a699984c49709876a33a08dfa7",
+    "app/src/main/java/ru/neuroscribe/app/ScribeViewModel.kt": "a3157b4fd5208355e26b6077947c376048716687642bade7067683390b391fff",
+    "app/src/main/java/ru/neuroscribe/app/core/AsrRepetition.kt": "e826ad844e32da276bdf16e24241a8af9cefd6b8df70888a8aad23da350a1f7a",
+    "app/src/main/java/ru/neuroscribe/app/core/SpeakerClustering.kt": "4a73b6835e4014158c77bb195f1ceda28ed47e208099a4aa4351e0a200afefe3",
+    "app/src/main/java/ru/neuroscribe/app/core/Transcript.kt": "6b30c773d403401ed263933ad09f37812246dd4830998ec9bc83ab4ad5e97519",
+    "app/src/main/java/ru/neuroscribe/app/core/Pcm.kt": "9d35cbdacb5950153cfd38e84a1002b65b8db2f26c2c6e1d91dd681153234283",
+    "app/src/main/java/ru/neuroscribe/app/core/PunctuationPrefixGuard.kt": "3d8477641a4e59ca3408262fcabd1f3593fc224792aa431cbe64bc8102615b4b",
+    "app/src/main/java/ru/neuroscribe/app/audio/AudioDecoder.kt": "0741832eb6965a08c948f01eda46acc07b1236ccc87804c1bed451a67ae14e97",
+    "app/src/main/java/ru/neuroscribe/app/engine/ModelStore.kt": "2cda8f15014d52b86f829969c4961aed731319c33cb26299d0fafcd89b7d3443",
+    "app/src/main/java/ru/neuroscribe/app/engine/LocalLlm.kt": "a9c41d6db466c07bbbbd70f12644f97ac22bf974963d2cbd427cff34e8191ad3",
+    "app/src/main/java/ru/neuroscribe/app/engine/DiarizationProgress.kt": "be11043c5e1e72cee3b51527ab1a521c6c2656713803b4d3d488c067a988c852",
+    "app/src/main/java/ru/neuroscribe/app/engine/StableDiarizer.kt": "2d9b0e4cd66622f54c82207214cf65b8eea4737b738cf06224f57cd082fa8b59",
+    "app/src/main/java/ru/neuroscribe/app/engine/TranscriptionEngine.kt": "193a71f25a9861bba2e53c729aef51afa74dc17f77db2a8df3b65ee24a10550e",
+    "app/src/main/java/ru/neuroscribe/app/engine/SpeechRecognizer.kt": "2cd7ad76eb949e85f57bb31e22e5d7bb612226bffdd78b6c3f2ad1312a1e137a"
+  }
+}

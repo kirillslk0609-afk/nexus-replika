@@ -1,0 +1,13 @@
+{
+  "duration_seconds": 82.0578,
+  "width": 540,
+  "height": 1200,
+  "decoded_with": "macOS AVFoundation",
+  "frame_at_fraction": 0.9,
+  "airplane_icon_visible": true,
+  "export_matches_internal_result": true,
+  "audio_track_recorded": false,
+  "physical_phone": false,
+  "version": "0.2.0",
+  "apk_sha256": "87b5752d154e49dee143b8f41a6d21db19d01691fb7a3ea21458f2b2e6540db1"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "fixture": "russian.m4a",
+    "samples": 164489,
+    "pcmFloat32LeSha256": "24458c4cb6c3c2f39207799b797712da8e79c5ee2cf59f7a464f39cbe40bcf73",
+    "baselineMs": 1221.619293,
+    "optimizedMs": 500.58525,
+    "bitExact": true
+  },
+  {
+    "fixture": "conversation.mp3",
+    "samples": 2704206,
+    "pcmFloat32LeSha256": "a626cf88fc0582fe6f0752b956a7144e255bfec226ed90d8930908f1a6532716",
+    "baselineMs": 22148.274385,
+    "optimizedMs": 7553.382295,
+    "bitExact": true
+  },
+  {
+    "fixture": "conversation-second.mp3",
+    "samples": 2461317,
+    "pcmFloat32LeSha256": "a12fc83b3aede5f9004b11253b0521b4879ec1c18b922c6cc9add44ad1e57119",
+    "baselineMs": 20086.554177,
+    "optimizedMs": 10302.165547,
+    "bitExact": true
+  },
+  {
+    "fixture": "validation-en.mp3",
+    "samples": 5128651,
+    "pcmFloat32LeSha256": "0bc2e9213fb866a3dc1e1fcffc9f0f99e500836a013ddd3d43eb19766182426a",
+    "baselineMs": 41750.986687,
+    "optimizedMs": 20489.946177,
+    "bitExact": true
+  },
+  {
+    "fixture": "unseen-ru.mp3",
+    "samples": 3691485,
+    "pcmFloat32LeSha256": "1a0958c853af650966fb69f43bed18321f8b11e6ae6467d47e0444fe98b48b26",
+    "baselineMs": 30011.084223,
+    "optimizedMs": 15945.779383,
+    "bitExact": true
+  },
+  {
+    "fixture": "russian.wav",
+    "samples": 164490,
+    "pcmFloat32LeSha256": "7a7a7a157ff727e88b568113a725aac617991acad2071be8412f2e28917be8f3",
+    "baselineMs": 48.960792,
+    "optimizedMs": 109.874001,
+    "bitExact": true
+  },
+  {
+    "fixture": "two-speakers.wav",
+    "samples": 256000,
+    "pcmFloat32LeSha256": "4850b4df7775553a49514122cb39bcf21631f03bc85dfecd6268b2cc77268f9f",
+    "baselineMs": 71.583291,
+    "optimizedMs": 49.789916,
+    "bitExact": true
+  },
+  {
+    "fixture": "noise/garden-clean.wav",
+    "samples": 136227,
+    "pcmFloat32LeSha256": "3252bf1f43dc366d292bc423dd4d809bbef81663e13edcad8b1dcca8385a5cba",
+    "baselineMs": 41.967292,
+    "optimizedMs": 52.6585,
+    "bitExact": true
+  }
+]

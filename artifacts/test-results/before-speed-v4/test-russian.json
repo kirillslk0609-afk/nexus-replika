@@ -1,0 +1,17 @@
+{
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 40,
+        "end_ms": 10260,
+        "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат файл."
+      }
+    ]
+  },
+  "durationMs": 10280,
+  "processingMs": 39428,
+  "llmCalls": 1,
+  "rejectedEdits": 0,
+  "overlap": false
+}

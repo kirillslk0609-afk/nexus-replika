@@ -1,0 +1,184 @@
+{
+  "scope": "Android diarization on local mono audio; original stereo channels used only by this external evaluation tool",
+  "manual_DER_available": false,
+  "correct_speaker_count_cases": 16,
+  "total_cases": 16,
+  "results": [
+    {
+      "fixture": "silence.wav",
+      "expectedSpeakers": 0,
+      "detectedSpeakers": 0,
+      "durationSeconds": 5,
+      "diarizationAndDecodeMs": 1491,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "russian.wav",
+      "expectedSpeakers": 1,
+      "detectedSpeakers": 1,
+      "durationSeconds": 10.280625,
+      "diarizationAndDecodeMs": 2473,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "russian-noise.wav",
+      "expectedSpeakers": 1,
+      "detectedSpeakers": 1,
+      "durationSeconds": 10.280625,
+      "diarizationAndDecodeMs": 2368,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "russian-pauses.wav",
+      "expectedSpeakers": 1,
+      "detectedSpeakers": 1,
+      "durationSeconds": 25.56125,
+      "diarizationAndDecodeMs": 3666,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "two-speakers.wav",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 16,
+      "diarizationAndDecodeMs": 2592,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "synthetic-two.wav",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 15.653125,
+      "diarizationAndDecodeMs": 3013,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "three-speakers.wav",
+      "expectedSpeakers": 3,
+      "detectedSpeakers": 3,
+      "durationSeconds": 26,
+      "diarizationAndDecodeMs": 3226,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "four-speakers.wav",
+      "expectedSpeakers": 4,
+      "detectedSpeakers": 4,
+      "durationSeconds": 56.8606875,
+      "diarizationAndDecodeMs": 5482,
+      "speaker_count_correct": true
+    },
+    {
+      "fixture": "conversation.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 169.012875,
+      "diarizationAndDecodeMs": 52374,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 68.98,
+        "best_one_to_one_speaker_agreement": 0.7301,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "conversation-second.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 153.8323125,
+      "diarizationAndDecodeMs": 48946,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 92.06,
+        "best_one_to_one_speaker_agreement": 0.9244,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "development-ru.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 200.1129375,
+      "diarizationAndDecodeMs": 62560,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 115.54,
+        "best_one_to_one_speaker_agreement": 0.9072,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "development-en.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 304.51925,
+      "diarizationAndDecodeMs": 89282,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 191.56,
+        "best_one_to_one_speaker_agreement": 0.7059,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "validation-ru.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 219.4818125,
+      "diarizationAndDecodeMs": 67170,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 130.08,
+        "best_one_to_one_speaker_agreement": 0.863,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "validation-en.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 320.5406875,
+      "diarizationAndDecodeMs": 97614,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 177.28,
+        "best_one_to_one_speaker_agreement": 0.8185,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "unseen-ru.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 230.7178125,
+      "diarizationAndDecodeMs": 71802,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 157.3,
+        "best_one_to_one_speaker_agreement": 0.8428,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    },
+    {
+      "fixture": "unseen-en.mp3",
+      "expectedSpeakers": 2,
+      "detectedSpeakers": 2,
+      "durationSeconds": 389.0036875,
+      "diarizationAndDecodeMs": 115908,
+      "speaker_count_correct": true,
+      "channel_proxy": {
+        "clean_channel_seconds": 175.04,
+        "best_one_to_one_speaker_agreement": 0.6782,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      }
+    }
+  ]
+}

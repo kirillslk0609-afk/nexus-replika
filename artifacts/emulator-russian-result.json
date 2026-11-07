@@ -1,0 +1,1 @@
+{"fileName":"neuroscribe-test-russian.wav","result":{"transcript":[{"speaker_id":"speaker_1","start_ms":30,"end_ms":10280,"text":"Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл."}]},"durationMs":10280,"processingMs":2648,"llmCalls":1,"rejectedEdits":0,"overlap":false}

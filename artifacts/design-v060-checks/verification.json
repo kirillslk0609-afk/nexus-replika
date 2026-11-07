@@ -1,0 +1,21 @@
+{
+  "version": "0.6.0",
+  "apk_sha256": "495e5358ec87fa7542327ff22059d4cb88424722285053d81af3596696cf66ea",
+  "baseline_apk_sha256": "14b137053dedc805125fe5a51bdc324fbb492971ec58226439f869fd26520e53",
+  "device": "Android 15 ARM64 emulator-5566; airplane mode",
+  "physical_phone_test": false,
+  "instrumentation_logs": [
+    "android-instrumentation.txt"
+  ],
+  "unique_android_tests_passed": 5,
+  "full_transcript_cases_unchanged": 4,
+  "compared_cases": [
+    "ui-result.json",
+    "two-speakers-result.json",
+    "noisy-result.json",
+    "pauses-result.json"
+  ],
+  "non_ui_sources_unchanged": 15,
+  "native_binaries_unchanged": 5,
+  "full_19_test_engine_regression": "Retained from 0.4; not rerun on this APK"
+}

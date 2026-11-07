@@ -1,0 +1,26 @@
+[
+  {
+    "fixture": "ru_000002",
+    "resampler": "old-linear",
+    "speakers": 11,
+    "segments": 73
+  },
+  {
+    "fixture": "ru_000002",
+    "resampler": "new-filter",
+    "speakers": 8,
+    "segments": 66
+  },
+  {
+    "fixture": "ru_000014",
+    "resampler": "old-linear",
+    "speakers": 6,
+    "segments": 39
+  },
+  {
+    "fixture": "ru_000014",
+    "resampler": "new-filter",
+    "speakers": 8,
+    "segments": 41
+  }
+]

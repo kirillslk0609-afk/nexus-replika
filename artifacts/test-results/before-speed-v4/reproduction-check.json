@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-07",
+  "version": "0.3.0",
+  "method": "Isolated source copy; clean Gradle rebuild; pinned dependencies reused locally",
+  "command": "gradle clean && scripts/build.sh",
+  "success": true,
+  "jvm_tests": 22,
+  "dependency_cache_reused": true,
+  "fresh_network_download": false,
+  "byte_identical_claim": false,
+  "production_kotlin_verified_identical": true
+}

@@ -1,0 +1,29 @@
+{
+  "apk_sha256": "f5cb26ded696a97f93fc04605c8a5056b034e903598db1b1af1726104dedce1f",
+  "visual_test_unique_methods": 1,
+  "runs_passed": 2,
+  "viewport_geometry": [
+    {
+      "width": 1024,
+      "height": 2463,
+      "topInset": 121,
+      "bottomInset": 126,
+      "density": 2.625,
+      "contentDpWidth": 390.09525,
+      "contentDpHeight": 844.1905,
+      "data": "Mock transcript + silent WAV: visual layout only, not recognition output"
+    },
+    {
+      "width": 840,
+      "height": 2100,
+      "topInset": 100,
+      "bottomInset": 126,
+      "density": 2.625,
+      "contentDpWidth": 320,
+      "contentDpHeight": 713.9048,
+      "data": "Mock transcript + silent WAV: visual layout only, not recognition output"
+    }
+  ],
+  "fixture": "Mock text and silence; not ASR evidence",
+  "original_user_state_restored": true
+}

@@ -1,0 +1,28 @@
+{
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_ms": 1640,
+      "end_ms": 3280,
+      "text": "Pencil with black lead right spet."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_ms": 4440,
+      "end_ms": 6420,
+      "text": "the lamp shone with a steady green flame."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_ms": 9360,
+      "end_ms": 11460,
+      "text": "Clothes and lodging are free to new men."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_ms": 12180,
+      "end_ms": 14640,
+      "text": "The glow deepened in the eyes of the sweet girl."
+    }
+  ]
+}

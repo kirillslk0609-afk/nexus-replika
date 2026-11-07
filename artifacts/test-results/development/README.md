@@ -1,0 +1,1 @@
+Historical development failure: the first candidate split the three-speaker excerpt and one English conversation. This is not the final test run; see artifacts/android-instrumentation.txt and docs/DIARIZATION_RESULTS.md.

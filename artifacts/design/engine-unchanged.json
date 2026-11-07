@@ -1,0 +1,27 @@
+{
+  "source": {
+    "app/src/main/java/ru/neuroscribe/app/ScribeViewModel.kt": "a3157b4fd5208355e26b6077947c376048716687642bade7067683390b391fff",
+    "app/src/main/java/ru/neuroscribe/app/core/AsrRepetition.kt": "e826ad844e32da276bdf16e24241a8af9cefd6b8df70888a8aad23da350a1f7a",
+    "app/src/main/java/ru/neuroscribe/app/core/SpeakerClustering.kt": "4a73b6835e4014158c77bb195f1ceda28ed47e208099a4aa4351e0a200afefe3",
+    "app/src/main/java/ru/neuroscribe/app/core/Transcript.kt": "6b30c773d403401ed263933ad09f37812246dd4830998ec9bc83ab4ad5e97519",
+    "app/src/main/java/ru/neuroscribe/app/core/Pcm.kt": "9d35cbdacb5950153cfd38e84a1002b65b8db2f26c2c6e1d91dd681153234283",
+    "app/src/main/java/ru/neuroscribe/app/core/PunctuationPrefixGuard.kt": "3d8477641a4e59ca3408262fcabd1f3593fc224792aa431cbe64bc8102615b4b",
+    "app/src/main/java/ru/neuroscribe/app/audio/AudioDecoder.kt": "0741832eb6965a08c948f01eda46acc07b1236ccc87804c1bed451a67ae14e97",
+    "app/src/main/java/ru/neuroscribe/app/engine/ModelStore.kt": "2cda8f15014d52b86f829969c4961aed731319c33cb26299d0fafcd89b7d3443",
+    "app/src/main/java/ru/neuroscribe/app/engine/LocalLlm.kt": "a9c41d6db466c07bbbbd70f12644f97ac22bf974963d2cbd427cff34e8191ad3",
+    "app/src/main/java/ru/neuroscribe/app/engine/DiarizationProgress.kt": "be11043c5e1e72cee3b51527ab1a521c6c2656713803b4d3d488c067a988c852",
+    "app/src/main/java/ru/neuroscribe/app/engine/StableDiarizer.kt": "2d9b0e4cd66622f54c82207214cf65b8eea4737b738cf06224f57cd082fa8b59",
+    "app/src/main/java/ru/neuroscribe/app/engine/TranscriptionEngine.kt": "193a71f25a9861bba2e53c729aef51afa74dc17f77db2a8df3b65ee24a10550e",
+    "app/src/main/java/ru/neuroscribe/app/engine/SpeechRecognizer.kt": "2cd7ad76eb949e85f57bb31e22e5d7bb612226bffdd78b6c3f2ad1312a1e137a",
+    "app/src/main/cpp/llm_jni.cpp": "261122f2337fe6b369843bfcfb44b59d8559a4144ae77e0dc25dbeaa52d5c143",
+    "app/src/main/cpp/CMakeLists.txt": "d9b034cecb2070eb4095af9e7b938109c19a98549b9cdb2de35c4a348051f312"
+  },
+  "native": {
+    "lib/arm64-v8a/libonnxruntime.so": "7a2fb92eb67037837c3f0e428bd732fd0d05ced0546d9e740090c07573d8249a",
+    "lib/arm64-v8a/libsherpa-onnx-c-api.so": "0eadae93c4d595a26584d7eebde7b397b9a36d01eee3ebc7262e0d34df2fce10",
+    "lib/arm64-v8a/libsherpa-onnx-cxx-api.so": "de94e0952a124eb22e86d754e11aa0489a065affc837911a8ed5e7fd843baad6",
+    "lib/arm64-v8a/libsherpa-onnx-jni.so": "5db8f89f12b2c900a98c9e01e00c475c59db35e9437a62e36e27839ec48b5575",
+    "lib/arm64-v8a/libneuroscribe-llm.so": "cf684f413eb7a7ed6045b35aacca9145a655b6b0880ed5457e6877f6ea1f5d0c"
+  },
+  "apk_sha256": "14b137053dedc805125fe5a51bdc324fbb492971ec58226439f869fd26520e53"
+}

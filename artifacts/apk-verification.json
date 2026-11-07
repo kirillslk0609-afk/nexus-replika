@@ -1,0 +1,50 @@
+{
+  "apk_bytes": 949695740,
+  "apk_sha256": "f5cb26ded696a97f93fc04605c8a5056b034e903598db1b1af1726104dedce1f",
+  "verified_model_files": [
+    "decoder.onnx",
+    "encoder.onnx",
+    "tokens.txt",
+    "punctuation.gguf",
+    "segmentation.onnx",
+    "embedding.onnx"
+  ],
+  "abi": "arm64-v8a",
+  "min_sdk": 26,
+  "internet_permission": false,
+  "elf_load_alignment": {
+    "libneuroscribe-llm.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libonnxruntime.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libsherpa-onnx-c-api.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libsherpa-onnx-cxx-api.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ],
+    "libsherpa-onnx-jni.so": [
+      "0x4000",
+      "0x4000",
+      "0x4000"
+    ]
+  },
+  "lint_errors": 0,
+  "lint_warnings": 11,
+  "signature_v2_verified": true,
+  "zipalign_16k_verified": true,
+  "physical_android_test": "User-provided Samsung S10 video; see docs/PHONE_TEST.md; installed APK hash and quantitative metrics not verified",
+  "engine_evidence_apk_sha256": "14b137053dedc805125fe5a51bdc324fbb492971ec58226439f869fd26520e53",
+  "current_release_checks": "design/verification.json"
+}

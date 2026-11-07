@@ -1,0 +1,64 @@
+[
+  {
+    "name": "original",
+    "language": "ru",
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "file": "samples/noise-sources/original.wav"
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "voice": "Milena",
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "file": "samples/noise-sources/schedule.wav"
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "voice": "Milena",
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "file": "samples/noise-sources/travel.wav"
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "voice": "Samantha",
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "file": "samples/noise-sources/lab.wav"
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "voice": "Daniel",
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "file": "samples/noise-sources/garden.wav"
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "file": "samples/noise-sources/libri-1272-128104-0000.wav",
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "language": "en",
+    "speaker_id": 1272
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "file": "samples/noise-sources/libri-1272-128104-0001.wav",
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "language": "en",
+    "speaker_id": 1272
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "file": "samples/noise-sources/libri-1272-128104-0002.wav",
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "language": "en",
+    "speaker_id": 1272
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "file": "samples/noise-sources/libri-1272-128104-0003.wav",
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "language": "en",
+    "speaker_id": 1272
+  }
+]

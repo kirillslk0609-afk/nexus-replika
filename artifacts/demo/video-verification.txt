@@ -1,0 +1,1 @@
+Video duration: 111.2124 seconds; size: (1080.0, 2400.0); frame decoded successfully

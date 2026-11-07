@@ -1,0 +1,335 @@
+{
+  "synthetic": "macOS say: Milena (ru), Samantha (en_US), Daniel (en_GB); reference texts and source WAVs in samples/noise-sources.",
+  "human": {
+    "corpus": "LibriSpeech by Vassil Panayotov, Daniel Povey, Guoguo Chen, Sanjeev Khudanpur; LibriVox read audiobooks",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://www.openslr.org/12",
+    "mirror": "https://huggingface.co/datasets/hf-internal-testing/librispeech_asr_dummy",
+    "revision": "5be91486e11a2d616f4ec5db8d3fd248585ac07a",
+    "file": "clean/validation-00000-of-00001.parquet",
+    "parquet_sha256": "4e69a06fa5edc90921e5e7e39a7084881f8b3ed9c805c574f4f39c6fde27c603",
+    "rows": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "speaker_id": 1272,
+    "verification": "Downloaded FLAC bytes match the pinned parquet audio cells by SHA-256. Four utterances from one human reader, not four readers."
+  },
+  "generation": {
+    "seed": 20261107,
+    "sample_rate": 16000,
+    "variants": [
+      "clean",
+      "white 12 dB",
+      "white 6 dB",
+      "pink 6 dB",
+      "100/200 Hz hum with white noise 6 dB"
+    ],
+    "snr_definition": "Full-clip speech RMS / added noise RMS before clipping; pink FFT scaled by 1/sqrt(max(frequency,40)); hum sin(100Hz)+0.5sin(200Hz)+0.15white. The original white12 case reuses the v0.2 noisy fixture (seed20261106).",
+    "crop": "Discard first 40 ms from every variant to exercise exactly the former problematic ASR slice; identical samples for both models. Export float32 WAV. This matrix measures ASR, not diarization.",
+    "evaluation": "Development/evaluation set, not a blind or representative benchmark. No learned filter tuning on references in production."
+  },
+  "sources": [
+    {
+      "name": "original",
+      "language": "ru",
+      "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+      "file": "samples/noise-sources/original.wav",
+      "sha256": "495afad67f87612b9c35ad6ca61baa874f715e1905bf99b9995c57c4d07ce0e9"
+    },
+    {
+      "name": "schedule",
+      "language": "ru",
+      "voice": "Milena",
+      "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "file": "samples/noise-sources/schedule.wav",
+      "sha256": "730841dc1e51026a6cf1b4b4a93c0d613a5d278c0056e474fd8b4727cdf3c512"
+    },
+    {
+      "name": "travel",
+      "language": "ru",
+      "voice": "Milena",
+      "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+      "file": "samples/noise-sources/travel.wav",
+      "sha256": "1210e8b2084bc3da3e4180b26bdefcbb90889ac8110644da0fb709c4e78ded19"
+    },
+    {
+      "name": "lab",
+      "language": "en",
+      "voice": "Samantha",
+      "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "file": "samples/noise-sources/lab.wav",
+      "sha256": "7a6e6fd7f2138abb34c530fefc953b58245f26b2cffb91d4053dd5b0e51622b7"
+    },
+    {
+      "name": "garden",
+      "language": "en",
+      "voice": "Daniel",
+      "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "file": "samples/noise-sources/garden.wav",
+      "sha256": "dee6866c08ec4dc17836ef32415944b3159dd0b4ab238baed163af3b9cb3f74f"
+    },
+    {
+      "name": "libri-1272-128104-0000",
+      "file": "samples/noise-sources/libri-1272-128104-0000.wav",
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "language": "en",
+      "speaker_id": 1272,
+      "sha256": "c85401f70630847182fc5852d28ced0910629f5207ae38aa6a1464fd3daa3bfa"
+    },
+    {
+      "name": "libri-1272-128104-0001",
+      "file": "samples/noise-sources/libri-1272-128104-0001.wav",
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "language": "en",
+      "speaker_id": 1272,
+      "sha256": "bb14dadc88c0f7e4a9b3f6ced01a1a86371a86231af6843b2ec443721371160d"
+    },
+    {
+      "name": "libri-1272-128104-0002",
+      "file": "samples/noise-sources/libri-1272-128104-0002.wav",
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "language": "en",
+      "speaker_id": 1272,
+      "sha256": "635a470c7fe3943454e9bfe5f83b79f91e65df5fd19c50da51cc2a53fe10f0c1"
+    },
+    {
+      "name": "libri-1272-128104-0003",
+      "file": "samples/noise-sources/libri-1272-128104-0003.wav",
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "language": "en",
+      "speaker_id": 1272,
+      "sha256": "332bb7021da5021a8197a41e56c7b5ba51ece0263d2a22af6e80d0637462c2dd"
+    }
+  ],
+  "generated_files": [
+    {
+      "file": "app/src/androidTest/assets/noise/garden-clean.wav",
+      "bytes": 544952,
+      "sha256": "601a535fe4b931ed806bb98d0bedf6b871aee49c1868a8b6f999698885b445f6"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/garden-hum6.wav",
+      "bytes": 544952,
+      "sha256": "dd194c85d30bfe0f072a32955fdc261707ffca1e986889ec3075a8c83213eae0"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/garden-pink6.wav",
+      "bytes": 544952,
+      "sha256": "85124df45ab1299f935ce2099e372c73eaaa12d49926d72299bf9e5970521c0e"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/garden-white12.wav",
+      "bytes": 544952,
+      "sha256": "8b1cafa7878de7e25087020b174c0727e780fa965638f0a6e472f98a9a029baf"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/garden-white6.wav",
+      "bytes": 544952,
+      "sha256": "9ef9deff9cef03cd7ae74b5747786c15472c6027c8431bd2febe6917bd300440"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/lab-clean.wav",
+      "bytes": 555384,
+      "sha256": "54e2a6e33a0061110f7f1eb76d8a267c992270df4309aeada06f2707cca8fa22"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/lab-hum6.wav",
+      "bytes": 555384,
+      "sha256": "eb6142256025cb365be12f80dfb2a4f339b15952b1165c90dcbfc7cbf4a23715"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/lab-pink6.wav",
+      "bytes": 555384,
+      "sha256": "2e613e399343c9666673941f64825ff84ec90dd7eb548fd2f903baaafefebccf"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/lab-white12.wav",
+      "bytes": 555384,
+      "sha256": "8e62169b32500f6d2c705069178ca3c0ff2cb2bbc1be313c6a864f3b25428d53"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/lab-white6.wav",
+      "bytes": 555384,
+      "sha256": "43a0e3963c9ffb09bb92272b40e227a6558490dd69cdd1fb7d9dae193cde23da"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0000-clean.wav",
+      "bytes": 372204,
+      "sha256": "5d15e444d4bb7be48181b2b928c93b0e38c76c2d4a31961d4513211b7b1b8b2d"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0000-hum6.wav",
+      "bytes": 372204,
+      "sha256": "8be8ea0d70c7f96a88841d4fa57913bf2ef085a277de0ffdfc435e8b216d8b21"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0000-pink6.wav",
+      "bytes": 372204,
+      "sha256": "4c35b921ac3cb001fcab8274d42a9b79a2f51fb61cf624a35fc71b164dff15b3"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0000-white12.wav",
+      "bytes": 372204,
+      "sha256": "e9cdfdd5f7370e1243062c7353633d36cbbdf917be267d5d25da02095099b5a0"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0000-white6.wav",
+      "bytes": 372204,
+      "sha256": "1f2dff7dc55233c3b11ea958840e7aa8f7ab287bcca371e3c94e8366907051d5"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0001-clean.wav",
+      "bytes": 305644,
+      "sha256": "96f0f273015209e7f851c87c8ba012e6fd0e0ae34375bfb119a9c0fb3d9aa9ff"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0001-hum6.wav",
+      "bytes": 305644,
+      "sha256": "9f41720b61b8de3180e624ea1cc52f4c2f96e42ab7b559cded44847a39f75dc5"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0001-pink6.wav",
+      "bytes": 305644,
+      "sha256": "dfdf8878c241b8482f252980c0160c55d197e32897a1383c299084f0ab226b0c"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0001-white12.wav",
+      "bytes": 305644,
+      "sha256": "b50b629f6fea3001087327c4f40c2c10b67c8ab703101ca24eab59ee87b26b58"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0001-white6.wav",
+      "bytes": 305644,
+      "sha256": "41de59ecff0d7d89063cb840ca1455aa049aa28ef3fc5cd1d99aabfe3dfa4f12"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0002-clean.wav",
+      "bytes": 796524,
+      "sha256": "9d087c66d726dbc641c2a9fa93826b4dacd6d64a844b0f13a6000985e3144e2f"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0002-hum6.wav",
+      "bytes": 796524,
+      "sha256": "4b3f168d637e614de8f69153fdcfa688c8ad6538613afa41bc8e9fe180dfe1e6"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0002-pink6.wav",
+      "bytes": 796524,
+      "sha256": "d2cb1b8fde25266655434e3782903b30df1874869c565079f9450626f902f4a1"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0002-white12.wav",
+      "bytes": 796524,
+      "sha256": "77ba06b2e067124e25071bcb8db76c4b870f24c56b34e8fa24fd9a2b2dc617b9"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0002-white6.wav",
+      "bytes": 796524,
+      "sha256": "8e0fd3a5106f7b21cfcd2b9f75d070c04dc370fbbce6ee34e0ec3605fc88e601"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0003-clean.wav",
+      "bytes": 631084,
+      "sha256": "530dc02499400b95a8e8cd90dbfe274a9e9bbd3f5d864405488520c09a456d69"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0003-hum6.wav",
+      "bytes": 631084,
+      "sha256": "d8df287772d9f952e079d0b56bc6d2971b833cad32c8774d98c8c05bb5014863"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0003-pink6.wav",
+      "bytes": 631084,
+      "sha256": "8b33fad7e341e610b4ee6d7fd9fde0af2938317e63972218969000061101718a"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0003-white12.wav",
+      "bytes": 631084,
+      "sha256": "2ad51c6d10d072634d2c17f44ecaf91805f13d303e654975996b22eb9de8463f"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/libri-1272-128104-0003-white6.wav",
+      "bytes": 631084,
+      "sha256": "12bb2e0bf1e52e20a40fa77f36573d78d4f9fcafa659be54ff881191188e9236"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/original-clean.wav",
+      "bytes": 655444,
+      "sha256": "faeb7d255ac586cac36d4b2bf5ed6bb8b3f7cc05e4c13da5238a01242d36dd0e"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/original-hum6.wav",
+      "bytes": 655444,
+      "sha256": "bb0fe2e6e4e40d7d46125a7f05806d34c57e535f2f3d46344af31b4d104bd27b"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/original-pink6.wav",
+      "bytes": 655444,
+      "sha256": "2db3952f8b8f04ee7c878762bb03874eb79b5503ee2f2c63ba2ff263b4e4a851"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/original-white12.wav",
+      "bytes": 655444,
+      "sha256": "18ab20567379a73625ed972b24dac1877f9ebde97f52309e2b6e6059d22600e0"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/original-white6.wav",
+      "bytes": 655444,
+      "sha256": "c3cc4571e117f3a1b1144ba0de8220c4fb7314116c2697373932720063414755"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/schedule-clean.wav",
+      "bytes": 718556,
+      "sha256": "06da3eceb64aac254908a34bdc45c92c74da08597e158877b23abc5908819f82"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/schedule-hum6.wav",
+      "bytes": 718556,
+      "sha256": "11dd6968d35d9fdec08f758e0d4d8425ee3413cb0e5039ec82620e1201a87437"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/schedule-pink6.wav",
+      "bytes": 718556,
+      "sha256": "5361698a01d7dca1425ced61aeea773fa8cae0f59616407897e5a94a62853783"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/schedule-white12.wav",
+      "bytes": 718556,
+      "sha256": "d43ab76997b94603b8dfb8dd79551db33b9908b6c2e5f7f9a16de3dc6fe885dd"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/schedule-white6.wav",
+      "bytes": 718556,
+      "sha256": "8f9531866bc3354f82f12e5a2e4c5d1858fedf74cc194c788555336587c0870b"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/travel-clean.wav",
+      "bytes": 602396,
+      "sha256": "45b487342571cb66190c32acd9ab5b41f68dd60231ea0545f50910ff69168e45"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/travel-hum6.wav",
+      "bytes": 602396,
+      "sha256": "0bc227c752cdac6b66affd1e70104d452f557486c7e24f6ffa19fd5bf40eab02"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/travel-pink6.wav",
+      "bytes": 602396,
+      "sha256": "27924fde28dbc7990dbbab98fc46213680fd18a95adb08ef8fd9045e37eea3e8"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/travel-white12.wav",
+      "bytes": 602396,
+      "sha256": "8a82501295f6a7e130429b8502ef72d02249096a7b8b5f37d9fa27eadcb9d62f"
+    },
+    {
+      "file": "app/src/androidTest/assets/noise/travel-white6.wav",
+      "bytes": 602396,
+      "sha256": "d8ebdbf5c2a6cd71ef5385c085a67b22cd727dfdf1b145c00c41d79452bf6db7"
+    }
+  ]
+}

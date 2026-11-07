@@ -1,0 +1,252 @@
+{
+  "fixture": "conversation-second.mp3",
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 2410,
+        "end_ms": 2882,
+        "text": "Алло"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 3878,
+        "end_ms": 8029,
+        "text": "или что ты запуталась"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 10864,
+        "end_ms": 12400,
+        "text": "[ [ [ [ [ [ [ [ ["
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 15505,
+        "end_ms": 17969,
+        "text": "Мы ходили когда и оформлены"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 17969,
+        "end_ms": 23031,
+        "text": "когда еще тот офис действовал, тогда шел вопрос о том, что"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 23031,
+        "end_ms": 23976,
+        "text": "мы получим"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 23976,
+        "end_ms": 24972,
+        "text": "Тревикация"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 24972,
+        "end_ms": 27031,
+        "text": "Я не помню какой-то год"
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 27031,
+        "end_ms": 27672,
+        "text": "и что?"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 28094,
+        "end_ms": 29123,
+        "text": "это был прожный кон"
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 34371,
+        "end_ms": 35029,
+        "text": "Значит"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 35029,
+        "end_ms": 42032,
+        "text": "Мы договорились. Получив через Велимир эту справку, мы договорились, мы отправим им."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 42032,
+        "end_ms": 42977,
+        "text": "Сами тудов"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 42977,
+        "end_ms": 43973,
+        "text": "не суд и"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 43973,
+        "end_ms": 46724,
+        "text": "и получат на стрификации. Вот как был разговор."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 51499,
+        "end_ms": 55617,
+        "text": "Через Велимиром мы получили справку от кого."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 57456,
+        "end_ms": 59026,
+        "text": "Мы получили вторую"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 59026,
+        "end_ms": 65033,
+        "text": "подтверду очередную копию."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 65033,
+        "end_ms": 70349,
+        "text": "Не дают. А вот договорился, что нам еще раз дали копия. После этого я бушал."
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 69589,
+        "end_ms": 71867,
+        "text": "Я пришла, что я не веру тебе."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 73319,
+        "end_ms": 77031,
+        "text": "Я бы ты меня прибиваешь после этого когда мы уже юг"
+      },
+      {
+        "speaker_id": "speaker_3",
+        "start_ms": 77031,
+        "end_ms": 90970,
+        "text": "и подали ее. Мы получили справку из универа справку из универа. Это не на стрификация. Ее нужно было отнести туда. Они сказали дайте нам мы отнесем. Я им от"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 91037,
+        "end_ms": 92033,
+        "text": "Рааа"
+      },
+      {
+        "speaker_id": "speaker_6",
+        "start_ms": 92033,
+        "end_ms": 93704,
+        "text": "Вот как все было."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 95999,
+        "end_ms": 99036,
+        "text": "решение не донято, потребно нам яркий"
+      },
+      {
+        "speaker_id": "speaker_7",
+        "start_ms": 99036,
+        "end_ms": 105972,
+        "text": "у Калик и Вечи им от имолем вас домея просл..."
+      },
+      {
+        "speaker_id": "speaker_8",
+        "start_ms": 105972,
+        "end_ms": 106495,
+        "text": "не"
+      },
+      {
+        "speaker_id": "speaker_7",
+        "start_ms": 106495,
+        "end_ms": 107035,
+        "text": "Верни"
+      },
+      {
+        "speaker_id": "speaker_8",
+        "start_ms": 107035,
+        "end_ms": 110612,
+        "text": "решение, чем потом быть завершено уроку однеко ликадана"
+      },
+      {
+        "speaker_id": "speaker_5",
+        "start_ms": 121277,
+        "end_ms": 122695,
+        "text": "ты можешь мне ее прислать?"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 123032,
+        "end_ms": 124231,
+        "text": "если я её найду"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 125564,
+        "end_ms": 133343,
+        "text": "где-то наверное на ныдово. В общем они просрали как всегда просрали и не сделали то что сами обещали. Ну что надо прослюдить за все."
+      },
+      {
+        "speaker_id": "speaker_6",
+        "start_ms": 130660,
+        "end_ms": 131166,
+        "text": "Большин"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 135098,
+        "end_ms": 140211,
+        "text": "А ты с кем общалась по этому подкому мы там сморились кем? Своя она какого-"
+      },
+      {
+        "speaker_id": "speaker_8",
+        "start_ms": 139064,
+        "end_ms": 141629,
+        "text": "Я на какой почту надо все смотреть"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 142422,
+        "end_ms": 144970,
+        "text": "Единам не общался с ними никогда попустили"
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 145291,
+        "end_ms": 145966,
+        "text": "вяб"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 145966,
+        "end_ms": 146691,
+        "text": "Местный дис"
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 147974,
+        "end_ms": 150151,
+        "text": "Слышь, я понял."
+      },
+      {
+        "speaker_id": "speaker_4",
+        "start_ms": 151062,
+        "end_ms": 151298,
+        "text": "Д"
+      }
+    ]
+  },
+  "durationMs": 153832,
+  "processingMs": 219484,
+  "llmCalls": 40,
+  "rejectedEdits": 14,
+  "overlap": true
+}

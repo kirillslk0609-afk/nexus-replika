@@ -1,0 +1,27 @@
+{
+  "stageMs": {
+    "models": 0,
+    "decode": 7,
+    "diarization": 405,
+    "asrLoad": 1015,
+    "asr": 2160,
+    "llmLoad": 129,
+    "llm": 930
+  },
+  "fixture": "russian-noise.wav",
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 40,
+        "end_ms": 10280,
+        "text": "Добрый день, давайте обсудим план работы, сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат в файну."
+      }
+    ]
+  },
+  "durationMs": 10280,
+  "processingMs": 4648,
+  "llmCalls": 1,
+  "rejectedEdits": 0,
+  "overlap": false
+}

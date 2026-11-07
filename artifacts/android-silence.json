@@ -1,0 +1,10 @@
+{
+  "result": {
+    "transcript": []
+  },
+  "durationMs": 5000,
+  "processingMs": 3386,
+  "llmCalls": 0,
+  "rejectedEdits": 0,
+  "overlap": false
+}

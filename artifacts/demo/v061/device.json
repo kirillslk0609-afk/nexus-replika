@@ -1,0 +1,12 @@
+{
+  "ro.product.model": "Android SDK built for arm64",
+  "ro.build.version.release": "15",
+  "ro.product.cpu.abi": "arm64-v8a",
+  "ro.kernel.qemu": "1",
+  "airplane_mode_on": "1",
+  "wifi_on": "0",
+  "physical_phone_test": false,
+  "avd_profile": "Pixel 6",
+  "configured_ram_mib": 4096,
+  "app_version": "0.6.1"
+}

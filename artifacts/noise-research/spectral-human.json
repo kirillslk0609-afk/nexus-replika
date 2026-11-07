@@ -1,0 +1,402 @@
+[
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 8.06879997253418,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 5.573749542236328,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 5.594015121459961,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 4.446983337402344,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0000",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 8.30078125,
+    "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+    "raw": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    },
+    "enhanced": {
+      "text": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+      "reference_words": 17,
+      "errors": 1,
+      "wer": 0.058823529411764705
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 2.947092056274414,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 1,
+      "wer": 0.09090909090909091
+    },
+    "enhanced": {
+      "text": "Nor is Mr. Quilter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 1,
+      "wer": 0.09090909090909091
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 3.3180713653564453,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Norris Mr. Quilters' manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 5,
+      "wer": 0.45454545454545453
+    },
+    "enhanced": {
+      "text": "Nor is Mr. Colter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 2,
+      "wer": 0.18181818181818182
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.986856460571289,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Norris, Mr. Quoters, may not rest interest in them, his matter.",
+      "reference_words": 11,
+      "errors": 9,
+      "wer": 0.8181818181818182
+    },
+    "enhanced": {
+      "text": "Norris must recruit his manner, less interest than his commander.",
+      "reference_words": 11,
+      "errors": 7,
+      "wer": 0.6363636363636364
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 3.1402111053466797,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Norris Mr. Cultor's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 4,
+      "wer": 0.36363636363636365
+    },
+    "enhanced": {
+      "text": "Norris, Mr. Quoters' manner, less interest in them, his matter.",
+      "reference_words": 11,
+      "errors": 8,
+      "wer": 0.7272727272727273
+    }
+  },
+  {
+    "name": "libri-1272-128104-0001",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 5.671262741088867,
+    "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+    "raw": {
+      "text": "Nor is Mr. Colter's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 2,
+      "wer": 0.18181818181818182
+    },
+    "enhanced": {
+      "text": "Nor is Mr. Kultur's manner less interesting than his matter.",
+      "reference_words": 11,
+      "errors": 2,
+      "wer": 0.18181818181818182
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 11.683225631713867,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 8.322000503540039,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 3,
+      "wer": 0.09375
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 7.161140441894531,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those big roomy before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 4,
+      "wer": 0.125
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those three blooming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 4,
+      "wer": 0.125
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 6.829023361206055,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 2,
+      "wer": 0.0625
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and those beef loomings before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 4,
+      "wer": 0.125
+    }
+  },
+  {
+    "name": "libri-1272-128104-0002",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 7.125139236450195,
+    "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+    "raw": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 3,
+      "wer": 0.09375
+    },
+    "enhanced": {
+      "text": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+      "reference_words": 32,
+      "errors": 3,
+      "wer": 0.09375
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 6.704092025756836,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "He has grieved doubts whether Sir Frederick Layton's work is really Greek after all and can discover in it but little of Rocky Ithaca.",
+      "reference_words": 25,
+      "errors": 2,
+      "wer": 0.08
+    },
+    "enhanced": {
+      "text": "He has grieved doubts whether Sir Frederick Layton's work is really Greek after all and can discover in it but little of Rocky Ithaca.",
+      "reference_words": 25,
+      "errors": 2,
+      "wer": 0.08
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 5.9299468994140625,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "It has great doubts whether Sir Frederick Layton's work is really good after all, and can discover in it but little of Watte-Ithaca.",
+      "reference_words": 25,
+      "errors": 5,
+      "wer": 0.2
+    },
+    "enhanced": {
+      "text": "It has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Itaka.",
+      "reference_words": 25,
+      "errors": 6,
+      "wer": 0.24
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 7.189035415649414,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "It has great doubts whether specific latent work is really good after all and can discover in it but little of what the Eticaque.",
+      "reference_words": 25,
+      "errors": 10,
+      "wer": 0.4
+    },
+    "enhanced": {
+      "text": "It has great doubts whether the surface of the latent work is really grouped after all and can discover in it but little of Watte-Ithaca.",
+      "reference_words": 25,
+      "errors": 9,
+      "wer": 0.36
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.736112594604492,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "It has great notes whether it's appropriate to lay things in work, it's really good after all, and can discover in it but little of walking in the car.",
+      "reference_words": 25,
+      "errors": 17,
+      "wer": 0.68
+    },
+    "enhanced": {
+      "text": "It has great doubts whether the surface of the latent work is really grouped after all and can discover in it but little of Watte-Ithaca.",
+      "reference_words": 25,
+      "errors": 9,
+      "wer": 0.36
+    }
+  },
+  {
+    "name": "libri-1272-128104-0003",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 5.921125411987305,
+    "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+    "raw": {
+      "text": "He has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Ithaca.",
+      "reference_words": 25,
+      "errors": 4,
+      "wer": 0.16
+    },
+    "enhanced": {
+      "text": "He has great doubts whether Sir Frederick Layton's work is really great after all and can discover in it but little of Waki Isaka.",
+      "reference_words": 25,
+      "errors": 5,
+      "wer": 0.2
+    }
+  }
+]

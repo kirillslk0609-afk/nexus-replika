@@ -1,0 +1,8 @@
+fixture,device,duration_s,processing_s,rtf,speakers_expected,speakers_detected,turns,llm_calls,rejected_llm_edits,wer
+test-russian,Android 15 ARM64 emulator on Mac,10.28,21.461,2.088,1,1,1,1,0,0.052632
+test-two-speakers,Android 15 ARM64 emulator on Mac,16.0,16.051,1.003,2,2,4,4,0,
+test-silence,Android 15 ARM64 emulator on Mac,5.0,1.752,0.35,0,0,0,0,0,
+quality-russian-noise.wav,Android 15 ARM64 emulator on Mac,10.28,13.85,1.347,1,1,1,1,0,0.105263
+quality-russian-pauses.wav,Android 15 ARM64 emulator on Mac,25.561,26.036,1.019,1,2,4,4,1,0.157895
+quality-conversation.mp3,Android 15 ARM64 emulator on Mac,169.012,248.24,1.469,2,8,70,70,24,
+quality-conversation-second.mp3,Android 15 ARM64 emulator on Mac,153.832,219.484,1.427,2,8,40,40,14,

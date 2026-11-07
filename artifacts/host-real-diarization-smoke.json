@@ -1,0 +1,31 @@
+{
+  "environment": "macOS arm64, not Android",
+  "fixture": "official sherpa-onnx 1-two-speakers-en.wav",
+  "source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-segmentation-models/1-two-speakers-en.wav",
+  "expected_speakers_from_filename": 2,
+  "detected_speakers": 2,
+  "audio_seconds": 16.0,
+  "elapsed_with_model_load_seconds": 0.561967832967639,
+  "segments": [
+    {
+      "speaker": 0,
+      "start": 1.6172188520431519,
+      "end": 3.287843942642212
+    },
+    {
+      "speaker": 0,
+      "start": 4.4353437423706055,
+      "end": 6.426593780517578
+    },
+    {
+      "speaker": 3,
+      "start": 9.345969200134277,
+      "end": 11.455344200134277
+    },
+    {
+      "speaker": 3,
+      "start": 12.18096923828125,
+      "end": 14.644719123840332
+    }
+  ]
+}

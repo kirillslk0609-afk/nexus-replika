@@ -1,0 +1,502 @@
+[
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 13.617277145385742,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте обсудим план работы, сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 6.64520263671875,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подзотовим приложение. Завтра проверим качество распознавания и сохранения результат спайл.",
+      "reference_words": 19,
+      "errors": 4,
+      "wer": 0.21052631578947367
+    },
+    "enhanced": {
+      "text": "Добрый день, давайте обсудим план работы, сегодня мы подзотовим приложение, завтра проверим качество распознавания и сохраним результат файл",
+      "reference_words": 19,
+      "errors": 2,
+      "wer": 0.10526315789473684
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 7.136106491088867,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте отсюда и в тван работы. Сегодня мы подготовим приложение. В завтра проверим качество расслабнования и социрования в результат спальни.",
+      "reference_words": 19,
+      "errors": 10,
+      "wer": 0.5263157894736842
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте отсюда в план работы. Сегодня мы подготовим приложение. Завтра проверим качество расслабнования и сохранения в результат спальни.",
+      "reference_words": 19,
+      "errors": 7,
+      "wer": 0.3684210526315789
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 6.570100784301758,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте отсюда и план работы. Сегодня мы подготовим приложение. Завтра проверим качество расходнования и сохранения в результат спальни.",
+      "reference_words": 19,
+      "errors": 7,
+      "wer": 0.3684210526315789
+    },
+    "enhanced": {
+      "text": "Добрый день! Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохранения результат спайну.",
+      "reference_words": 19,
+      "errors": 3,
+      "wer": 0.15789473684210525
+    }
+  },
+  {
+    "name": "original",
+    "language": "ru",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 8.53419303894043,
+    "reference": "Добрый день. Давайте обсудим план работы. Сегодня мы подготовим приложение. Завтра проверим качество распознавания и сохраним результат в файл.",
+    "raw": {
+      "text": "Добрый день! Давайте обсудим план работы! Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат с файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    },
+    "enhanced": {
+      "text": "Добрый день, давайте обсудим план работы. Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат с файл.",
+      "reference_words": 19,
+      "errors": 1,
+      "wer": 0.05263157894736842
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 8.481025695800781,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    },
+    "enhanced": {
+      "text": "встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 7.549047470092773,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    },
+    "enhanced": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+      "reference_words": 24,
+      "errors": 2,
+      "wer": 0.08333333333333333
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.69407844543457,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется 20 часов утра. Анна подготовит документы, а сервий проверит оборудование. После обеда обсудили результаты инститаний и расредили задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 9,
+      "wer": 0.375
+    },
+    "enhanced": {
+      "text": "Встричен начнется 20 часов утра, Анна подготовит документы, а сервий проверит в орудование, после обеда обсудили результаты и испытания и распределивы задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 13,
+      "wer": 0.5416666666666666
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 7.446050643920898,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется 10 часов утра. Анна подготовит документы, а сервии проверит оборудование. После обеда обсудили результаты инститаний и распределили задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 9,
+      "wer": 0.375
+    },
+    "enhanced": {
+      "text": "А сричен начнется 10 часов утра, Анна подготовит документы, а сервии проверит вородование. После одевы обсудили результаты испытаний и распределивы задачи на следующие недели.",
+      "reference_words": 24,
+      "errors": 11,
+      "wer": 0.4583333333333333
+    }
+  },
+  {
+    "name": "schedule",
+    "language": "ru",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 6.375789642333984,
+    "reference": "Встреча начнётся в десять часов утра. Анна подготовит документы, а Сергей проверит оборудование. После обеда обсудим результаты испытаний и распределим задачи на следующую неделю.",
+    "raw": {
+      "text": "Встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задача на следующую неделю.",
+      "reference_words": 24,
+      "errors": 3,
+      "wer": 0.125
+    },
+    "enhanced": {
+      "text": "встреча начнется в 10 часов утра, Анна подготовит документы, а Сергей проверит оборудование, после обеда обсудим результаты испытаний и распределим задача на следующую неделю.",
+      "reference_words": 24,
+      "errors": 3,
+      "wer": 0.125
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 8.028984069824219,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "reference_words": 23,
+      "errors": 5,
+      "wer": 0.21739130434782608
+    },
+    "enhanced": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонд.",
+      "reference_words": 23,
+      "errors": 6,
+      "wer": 0.2608695652173913
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 6.7272186279296875,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "Пожалуйста, проверьте билеты и забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зон.",
+      "reference_words": 23,
+      "errors": 7,
+      "wer": 0.30434782608695654
+    },
+    "enhanced": {
+      "text": "Пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь с собой зон.",
+      "reference_words": 23,
+      "errors": 8,
+      "wer": 0.34782608695652173
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 7.400751113891602,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "Стоять придивает на второй пожалуй править где-то и забывайте личные вещи на улице где-то и дождь по этому возникам с собой зон",
+      "reference_words": 23,
+      "errors": 14,
+      "wer": 0.6086956521739131
+    },
+    "enhanced": {
+      "text": "Пожалуйста, проверьте где ты не забываешь и лечи. На улице идёт ты не дождь, поэтому возьмите с собой зон.",
+      "reference_words": 23,
+      "errors": 13,
+      "wer": 0.5652173913043478
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.34510612487793,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "Пожалуйста, проверьте где ты не забывайте личные вещи. На улице идёт силе дождь, поэтому возьмитесь с собой зон.",
+      "reference_words": 23,
+      "errors": 10,
+      "wer": 0.43478260869565216
+    },
+    "enhanced": {
+      "text": "Пожалуйста, проверьте где ты не забывайте личные вещи, но улицы идёт сильный дождь, поэтому возьмитесь с собой зон.",
+      "reference_words": 23,
+      "errors": 11,
+      "wer": 0.4782608695652174
+    }
+  },
+  {
+    "name": "travel",
+    "language": "ru",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 6.3018798828125,
+    "reference": "Поезд прибывает на второй путь. Пожалуйста, проверьте билеты и не забывайте личные вещи. На улице идёт сильный дождь, поэтому возьмите с собой зонт.",
+    "raw": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зонт.",
+      "reference_words": 23,
+      "errors": 5,
+      "wer": 0.21739130434782608
+    },
+    "enhanced": {
+      "text": "То есть пребывает на второй путь, пожалуйста, проверьте билеты и не забывайте личные вещи, на улице идет сильный дождь, поэтому возьмитесь, с собой зон.",
+      "reference_words": 23,
+      "errors": 6,
+      "wer": 0.2608695652173913
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 5.769968032836914,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 5.974054336547852,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor, we need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 6.514072418212891,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 16,
+      "wer": 0.5517241379310345
+    },
+    "enhanced": {
+      "text": "We need to compare the measurements and write a short report by Friday",
+      "reference_words": 29,
+      "errors": 16,
+      "wer": 0.5517241379310345
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 7.554769515991211,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "lab",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 9.053945541381836,
+    "reference": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+    "raw": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "Please close the window before we start the recording. The laboratory is on the second floor. We need to compare the measurements and write a short report by Friday.",
+      "reference_words": 29,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "clean",
+    "snr_db": null,
+    "denoise_ms": 8.427143096923828,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 12,
+    "denoise_ms": 6.601810455322266,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "white",
+    "snr_db": 6,
+    "denoise_ms": 5.944967269897461,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quite a bit until it too aroused.",
+      "reference_words": 28,
+      "errors": 5,
+      "wer": 0.17857142857142858
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "pink",
+    "snr_db": 6,
+    "denoise_ms": 5.417823791503906,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it blew away.",
+      "reference_words": 28,
+      "errors": 1,
+      "wer": 0.03571428571428571
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    }
+  },
+  {
+    "name": "garden",
+    "language": "en",
+    "noise": "hum",
+    "snr_db": 6,
+    "denoise_ms": 8.658885955810547,
+    "reference": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it flew away.",
+    "raw": {
+      "text": "The children walked through the garden and stopped near the old oak tree, a small bird was sitting on a branch, they waited quietly until it flew away.",
+      "reference_words": 28,
+      "errors": 0,
+      "wer": 0.0
+    },
+    "enhanced": {
+      "text": "The children walked through the garden and stopped near the old oak tree. A small bird was sitting on a branch. They waited quietly until it blew away.",
+      "reference_words": 28,
+      "errors": 1,
+      "wer": 0.03571428571428571
+    }
+  }
+]

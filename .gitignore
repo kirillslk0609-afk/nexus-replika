@@ -1,0 +1,14 @@
+.gradle/
+.tools/
+**/build/
+**/.cxx/
+local.properties
+third_party/llama.cpp/
+app/libs/*.aar
+app/src/main/assets/models/
+artifacts/*.apk
+artifacts/*.zip
+*.keystore
+.DS_Store
+__pycache__/
+*.pyc

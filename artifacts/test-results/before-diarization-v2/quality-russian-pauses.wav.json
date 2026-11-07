@@ -1,0 +1,36 @@
+{
+  "fixture": "russian-pauses.wav",
+  "result": {
+    "transcript": [
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 30,
+        "end_ms": 4030,
+        "text": "Добрый день! Давайте обсудим план работы! Сегодням"
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 4030,
+        "end_ms": 10274,
+        "text": "мы подготовим приложение, завтра проверим качество распознавания и сохраним результат file."
+      },
+      {
+        "speaker_id": "speaker_2",
+        "start_ms": 15252,
+        "end_ms": 17969,
+        "text": "Добрый день! Давайте обсудим планров!"
+      },
+      {
+        "speaker_id": "speaker_1",
+        "start_ms": 17969,
+        "end_ms": 25561,
+        "text": "Сегодня мы подготовим приложение, завтра проверим качество распознавания и сохраним результат файл."
+      }
+    ]
+  },
+  "durationMs": 25561,
+  "processingMs": 26036,
+  "llmCalls": 4,
+  "rejectedEdits": 1,
+  "overlap": false
+}

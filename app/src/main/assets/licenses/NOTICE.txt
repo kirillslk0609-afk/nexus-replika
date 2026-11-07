@@ -1,0 +1,7 @@
+NeuroScribe uses sherpa-onnx, ONNX Runtime, llama.cpp, Whisper, pyannote segmentation, NVIDIA NeMo TitaNet-Small and Qwen2.5.
+Model provenance and pinned revisions are documented in docs/THIRD_PARTY.md and config/models.lock.json in the source distribution.
+These third-party models and libraries are not authored by the application team.
+
+TitaNet-Small speaker embedding weights: NVIDIA Corporation; ONNX conversion distributed by sherpa-onnx.
+Model card: https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/titanet_small
+The model card places these weights under the NeMo Toolkit license (Apache-2.0); see LICENSE-NVIDIA-NeMo.txt. The ONNX weights are used without modification.

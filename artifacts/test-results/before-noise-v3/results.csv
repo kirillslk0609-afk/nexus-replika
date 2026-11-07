@@ -1,0 +1,8 @@
+fixture,device,duration_s,processing_s,rtf,speakers_expected,speakers_detected,turns,llm_calls,rejected_llm_edits,wer
+test-russian,Android 15 Android SDK built for arm64 (emulator-5566),10.28,21.87,2.127,1,1,1,1,0,0.052632
+test-two-speakers,Android 15 Android SDK built for arm64 (emulator-5566),16.0,18.67,1.167,2,2,4,4,0,
+test-silence,Android 15 Android SDK built for arm64 (emulator-5566),5.0,0.717,0.143,0,0,0,0,0,
+quality-russian-noise.wav,Android 15 Android SDK built for arm64 (emulator-5566),10.28,13.694,1.332,1,1,1,1,0,0.210526
+quality-russian-pauses.wav,Android 15 Android SDK built for arm64 (emulator-5566),25.561,19.926,0.78,1,1,2,2,0,0.052632
+quality-conversation.mp3,Android 15 Android SDK built for arm64 (emulator-5566),169.012,232.505,1.376,2,2,59,59,21,
+quality-conversation-second.mp3,Android 15 Android SDK built for arm64 (emulator-5566),153.832,167.393,1.088,2,2,21,21,8,

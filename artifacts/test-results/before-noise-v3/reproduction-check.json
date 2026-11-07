@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-06",
+  "version": "0.2.0",
+  "method": "Isolated source copy; clean Gradle rebuild; pinned dependencies reused locally",
+  "command": "gradle clean && scripts/build.sh",
+  "success": true,
+  "tasks_executed": 53,
+  "build_seconds": 43,
+  "jvm_tests": 20,
+  "dependency_cache_reused": true,
+  "fresh_network_download": false,
+  "byte_identical_claim": false
+}

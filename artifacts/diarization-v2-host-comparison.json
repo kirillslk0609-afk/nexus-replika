@@ -1,0 +1,41 @@
+{
+  "scope": "Both pipelines on host, same audio decode/resample; not phone speed and not manual DER",
+  "old_embedding_sha256": "357a834f702b80161e5b981182c038e18553c1f2ca752ed6cec2052365d4129b",
+  "new_embedding_sha256": "ad4a1802485d8b34c722d2a9d04249662f2ece5d28a7a039063ca22f515a789e",
+  "rows": [
+    {
+      "fixture": "ru_000002",
+      "baseline": {
+        "clean_channel_seconds": 68.98,
+        "best_one_to_one_speaker_agreement": 0.3334,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      },
+      "updated": {
+        "clean_channel_seconds": 68.98,
+        "best_one_to_one_speaker_agreement": 0.7292,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      },
+      "baseline_speakers": 8,
+      "updated_speakers": 2
+    },
+    {
+      "fixture": "ru_000014",
+      "baseline": {
+        "clean_channel_seconds": 92.06,
+        "best_one_to_one_speaker_agreement": 0.4958,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      },
+      "updated": {
+        "clean_channel_seconds": 92.06,
+        "best_one_to_one_speaker_agreement": 0.9244,
+        "manual_der": false,
+        "rule": "20 ms RMS > 0.01 and > 4x other channel; overlap predictions count as errors"
+      },
+      "baseline_speakers": 8,
+      "updated_speakers": 2
+    }
+  ]
+}
